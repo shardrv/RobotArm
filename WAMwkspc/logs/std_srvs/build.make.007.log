@@ -1,0 +1,39 @@
+[  0%] Built target _std_srvs_generate_messages_check_deps_Empty
+[  0%] Built target _std_srvs_generate_messages_check_deps_Trigger
+[  0%] Built target _std_srvs_generate_messages_check_deps_SetBool
+[ 23%] Built target std_srvs_generate_messages_py
+[ 47%] Built target std_srvs_generate_messages_eus
+[ 64%] Built target std_srvs_generate_messages_lisp
+[ 70%] [34m[1mGenerating C++ code from std_srvs/Trigger.srv[0m
+[ 88%] Built target std_srvs_generate_messages_nodejs
+[ 94%] [34m[1mGenerating C++ code from std_srvs/Empty.srv[0m
+[100%] [34m[1mGenerating C++ code from std_srvs/SetBool.srv[0m
+Traceback (most recent call last):
+  File "/home/dhruv/RobotArm/WAMwkspc/src/gencpp/scripts/gen_cpp.py", line 41, in <module>
+    import genmsg.template_tools
+  File "/home/dhruv/RobotArm/WAMwkspc/src/genmsg/src/genmsg/template_tools.py", line 39, in <module>
+    import em
+ImportError: No module named em
+CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make:65: recipe for target '/home/dhruv/RobotArm/WAMwkspc/devel/.private/std_srvs/include/std_srvs/Trigger.h' failed
+make[2]: *** [/home/dhruv/RobotArm/WAMwkspc/devel/.private/std_srvs/include/std_srvs/Trigger.h] Error 1
+make[2]: *** Waiting for unfinished jobs....
+Traceback (most recent call last):
+  File "/home/dhruv/RobotArm/WAMwkspc/src/gencpp/scripts/gen_cpp.py", line 41, in <module>
+    import genmsg.template_tools
+  File "/home/dhruv/RobotArm/WAMwkspc/src/genmsg/src/genmsg/template_tools.py", line 39, in <module>
+    import em
+ImportError: No module named em
+CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make:79: recipe for target '/home/dhruv/RobotArm/WAMwkspc/devel/.private/std_srvs/include/std_srvs/Empty.h' failed
+make[2]: *** [/home/dhruv/RobotArm/WAMwkspc/devel/.private/std_srvs/include/std_srvs/Empty.h] Error 1
+Traceback (most recent call last):
+  File "/home/dhruv/RobotArm/WAMwkspc/src/gencpp/scripts/gen_cpp.py", line 41, in <module>
+    import genmsg.template_tools
+  File "/home/dhruv/RobotArm/WAMwkspc/src/genmsg/src/genmsg/template_tools.py", line 39, in <module>
+    import em
+ImportError: No module named em
+CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make:72: recipe for target '/home/dhruv/RobotArm/WAMwkspc/devel/.private/std_srvs/include/std_srvs/SetBool.h' failed
+CMakeFiles/Makefile2:530: recipe for target 'CMakeFiles/std_srvs_generate_messages_cpp.dir/all' failed
+make[2]: *** [/home/dhruv/RobotArm/WAMwkspc/devel/.private/std_srvs/include/std_srvs/SetBool.h] Error 1
+make[1]: *** [CMakeFiles/std_srvs_generate_messages_cpp.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

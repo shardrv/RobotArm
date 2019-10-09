@@ -1,0 +1,31 @@
+Traceback (most recent call last):
+  File "/home/dhruv/RobotArm/WAMwkspc/src/gencpp/scripts/gen_cpp.py", line 41, in <module>
+    import genmsg.template_tools
+  File "/home/dhruv/RobotArm/WAMwkspc/src/genmsg/src/genmsg/template_tools.py", line 39, in <module>
+    import em
+ImportError: No module named em
+Traceback (most recent call last):
+  File "/home/dhruv/RobotArm/WAMwkspc/src/gencpp/scripts/gen_cpp.py", line 41, in <module>
+    import genmsg.template_tools
+  File "/home/dhruv/RobotArm/WAMwkspc/src/genmsg/src/genmsg/template_tools.py", line 39, in <module>
+    import em
+ImportError: No module named em
+make[2]: *** [/home/dhruv/RobotArm/WAMwkspc/devel/.private/std_msgs/include/std_msgs/UInt8MultiArray.h] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [/home/dhruv/RobotArm/WAMwkspc/devel/.private/std_msgs/include/std_msgs/Float64.h] Error 1
+Traceback (most recent call last):
+  File "/home/dhruv/RobotArm/WAMwkspc/src/gencpp/scripts/gen_cpp.py", line 41, in <module>
+    import genmsg.template_tools
+  File "/home/dhruv/RobotArm/WAMwkspc/src/genmsg/src/genmsg/template_tools.py", line 39, in <module>
+    import em
+ImportError: No module named em
+make[2]: *** [/home/dhruv/RobotArm/WAMwkspc/devel/.private/std_msgs/include/std_msgs/Empty.h] Error 1
+Traceback (most recent call last):
+  File "/home/dhruv/RobotArm/WAMwkspc/src/gencpp/scripts/gen_cpp.py", line 41, in <module>
+    import genmsg.template_tools
+  File "/home/dhruv/RobotArm/WAMwkspc/src/genmsg/src/genmsg/template_tools.py", line 39, in <module>
+    import em
+ImportError: No module named em
+make[2]: *** [/home/dhruv/RobotArm/WAMwkspc/devel/.private/std_msgs/include/std_msgs/UInt16MultiArray.h] Error 1
+make[1]: *** [CMakeFiles/std_msgs_generate_messages_cpp.dir/all] Error 2
+make: *** [all] Error 2

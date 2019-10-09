@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/dhruv/RobotArm/wamdir/devel -DCMAKE_INSTALL_PREFIX=/home/dhruv/RobotArm/wamdir/install -G Unix Makefiles

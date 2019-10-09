@@ -1,0 +1,77 @@
+[  0%] Built target _std_msgs_generate_messages_check_deps_Float32MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt64MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_Byte
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt16
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int32
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int64
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int8
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt8
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int16
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt8MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt32
+[  0%] Built target _std_msgs_generate_messages_check_deps_ColorRGBA
+[  0%] Built target _std_msgs_generate_messages_check_deps_Empty
+[  0%] Built target _std_msgs_generate_messages_check_deps_MultiArrayLayout
+[  0%] Built target _std_msgs_generate_messages_check_deps_Time
+[  0%] Built target _std_msgs_generate_messages_check_deps_Header
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int16MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_Bool
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt16MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int64MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_Float64
+[  0%] Built target _std_msgs_generate_messages_check_deps_ByteMultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt32MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_MultiArrayDimension
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int8MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_Float32
+[  0%] Built target _std_msgs_generate_messages_check_deps_Char
+[  0%] Built target _std_msgs_generate_messages_check_deps_Float64MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int32MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt64
+[  0%] Built target _std_msgs_generate_messages_check_deps_Duration
+[  0%] Built target _std_msgs_generate_messages_check_deps_String
+[ 20%] Built target std_msgs_generate_messages_lisp
+[ 59%] Built target std_msgs_generate_messages_nodejs
+[ 60%] Built target std_msgs_generate_messages_py
+[ 80%] Built target std_msgs_generate_messages_eus
+[ 81%] [34m[1mGenerating C++ code from std_msgs/Empty.msg[0m
+[ 81%] [34m[1mGenerating C++ code from std_msgs/Float64.msg[0m
+[ 81%] [34m[1mGenerating C++ code from std_msgs/UInt8MultiArray.msg[0m
+[ 82%] [34m[1mGenerating C++ code from std_msgs/UInt16MultiArray.msg[0m
+Traceback (most recent call last):
+  File "/home/dhruv/RobotArm/WAMwkspc/src/gencpp/scripts/gen_cpp.py", line 41, in <module>
+    import genmsg.template_tools
+  File "/home/dhruv/RobotArm/WAMwkspc/src/genmsg/src/genmsg/template_tools.py", line 39, in <module>
+    import em
+ImportError: No module named em
+Traceback (most recent call last):
+  File "/home/dhruv/RobotArm/WAMwkspc/src/gencpp/scripts/gen_cpp.py", line 41, in <module>
+    import genmsg.template_tools
+  File "/home/dhruv/RobotArm/WAMwkspc/src/genmsg/src/genmsg/template_tools.py", line 39, in <module>
+    import em
+ImportError: No module named em
+CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make:107: recipe for target '/home/dhruv/RobotArm/WAMwkspc/devel/.private/std_msgs/include/std_msgs/Empty.h' failed
+CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make:93: recipe for target '/home/dhruv/RobotArm/WAMwkspc/devel/.private/std_msgs/include/std_msgs/Float64.h' failed
+make[2]: *** [/home/dhruv/RobotArm/WAMwkspc/devel/.private/std_msgs/include/std_msgs/Empty.h] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [/home/dhruv/RobotArm/WAMwkspc/devel/.private/std_msgs/include/std_msgs/Float64.h] Error 1
+Traceback (most recent call last):
+  File "/home/dhruv/RobotArm/WAMwkspc/src/gencpp/scripts/gen_cpp.py", line 41, in <module>
+    import genmsg.template_tools
+  File "/home/dhruv/RobotArm/WAMwkspc/src/genmsg/src/genmsg/template_tools.py", line 39, in <module>
+    import em
+ImportError: No module named em
+CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make:115: recipe for target '/home/dhruv/RobotArm/WAMwkspc/devel/.private/std_msgs/include/std_msgs/UInt8MultiArray.h' failed
+make[2]: *** [/home/dhruv/RobotArm/WAMwkspc/devel/.private/std_msgs/include/std_msgs/UInt8MultiArray.h] Error 1
+Traceback (most recent call last):
+  File "/home/dhruv/RobotArm/WAMwkspc/src/gencpp/scripts/gen_cpp.py", line 41, in <module>
+    import genmsg.template_tools
+  File "/home/dhruv/RobotArm/WAMwkspc/src/genmsg/src/genmsg/template_tools.py", line 39, in <module>
+    import em
+ImportError: No module named em
+CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make:101: recipe for target '/home/dhruv/RobotArm/WAMwkspc/devel/.private/std_msgs/include/std_msgs/UInt16MultiArray.h' failed
+make[2]: *** [/home/dhruv/RobotArm/WAMwkspc/devel/.private/std_msgs/include/std_msgs/UInt16MultiArray.h] Error 1
+CMakeFiles/Makefile2:1512: recipe for target 'CMakeFiles/std_msgs_generate_messages_cpp.dir/all' failed
+make[1]: *** [CMakeFiles/std_msgs_generate_messages_cpp.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

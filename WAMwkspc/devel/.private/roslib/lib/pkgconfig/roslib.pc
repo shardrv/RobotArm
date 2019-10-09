@@ -1,0 +1,8 @@
+prefix=/home/dhruv/RobotArm/WAMwkspc/devel/.private/roslib
+
+Name: roslib
+Description: Description of roslib
+Version: 1.14.6
+Cflags: -I/home/dhruv/RobotArm/WAMwkspc/src/ros/roslib/include
+Libs: -L/home/dhruv/RobotArm/WAMwkspc/devel/.private/roslib/lib -lroslib
+Requires: rospack

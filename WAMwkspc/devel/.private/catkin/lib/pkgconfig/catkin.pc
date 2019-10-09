@@ -1,0 +1,8 @@
+prefix=/home/dhruv/RobotArm/WAMwkspc/devel/.private/catkin
+
+Name: catkin
+Description: Description of catkin
+Version: 0.7.18
+Cflags: 
+Libs: -L/home/dhruv/RobotArm/WAMwkspc/devel/.private/catkin/lib 
+Requires: 

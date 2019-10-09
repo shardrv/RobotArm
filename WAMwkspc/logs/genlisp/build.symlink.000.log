@@ -1,0 +1,7 @@
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/pkgconfig/genlisp.pc
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/python2.7/dist-packages/genlisp/__init__.py
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/etc/ros/genmsg/genlisp
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/common-lisp/rospack_nosubdirs
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/genlisp/cmake/genlispConfig.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/genlisp/cmake/genlisp-extras.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/genlisp/cmake/genlispConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/ros_environment/etc/catkin/profile.d/1.ros_package_path.sh

@@ -1,0 +1,4 @@
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/libroscpp_serialization.so
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/pkgconfig/roscpp_serialization.pc
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake

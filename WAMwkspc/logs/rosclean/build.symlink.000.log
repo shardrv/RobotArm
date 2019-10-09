@@ -1,0 +1,5 @@
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/pkgconfig/rosclean.pc
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/python2.7/dist-packages/rosclean/__init__.py
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/rosclean/cmake/roscleanConfig-version.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/rosclean/cmake/roscleanConfig.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/bin/rosclean

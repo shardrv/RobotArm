@@ -1,0 +1,6 @@
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/pkgconfig/gennodejs.pc
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/python2.7/dist-packages/gennodejs/__init__.py
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/etc/ros/genmsg/gennodejs
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/gennodejs/cmake/gennodejs-extras.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/gennodejs/cmake/gennodejsConfig.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/gennodejs/cmake/gennodejsConfig-version.cmake

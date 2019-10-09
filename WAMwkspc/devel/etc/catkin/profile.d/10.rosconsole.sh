@@ -1,0 +1,1 @@
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/rosconsole/etc/catkin/profile.d/10.rosconsole.sh

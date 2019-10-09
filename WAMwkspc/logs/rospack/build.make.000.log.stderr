@@ -1,0 +1,30 @@
+In file included from [01m[K/home/dhruv/anaconda2/include/python2.7/Python.h:8:0[m[K,
+                 from [01m[K/home/dhruv/RobotArm/WAMwkspc/src/rospack/src/rospack.cpp:72[m[K:
+[01m[K/home/dhruv/anaconda2/include/python2.7/pyconfig.h:1220:0:[m[K [01;35m[Kwarning: [m[K"_POSIX_C_SOURCE" redefined
+ #define _POSIX_C_SOURCE 200112L
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/5/bits/os_defines.h:39:0[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h:482[m[K,
+                 from [01m[K/usr/include/c++/5/cstddef:44[m[K,
+                 from [01m[K/usr/include/boost/tr1/detail/config.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/tr1/unordered_set.hpp:8[m[K,
+                 from [01m[K/home/dhruv/RobotArm/WAMwkspc/src/rospack/include/rospack/rospack.h:108[m[K,
+                 from [01m[K/home/dhruv/RobotArm/WAMwkspc/src/rospack/src/rospack.cpp:28[m[K:
+[01m[K/usr/include/features.h:228:0:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+ # define _POSIX_C_SOURCE 200809L
+[01;32m[K ^[m[K
+In file included from [01m[K/home/dhruv/anaconda2/include/python2.7/Python.h:8:0[m[K,
+                 from [01m[K/home/dhruv/RobotArm/WAMwkspc/src/rospack/src/rospack.cpp:72[m[K:
+[01m[K/home/dhruv/anaconda2/include/python2.7/pyconfig.h:1242:0:[m[K [01;35m[Kwarning: [m[K"_XOPEN_SOURCE" redefined
+ #define _XOPEN_SOURCE 600
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/5/bits/os_defines.h:39:0[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h:482[m[K,
+                 from [01m[K/usr/include/c++/5/cstddef:44[m[K,
+                 from [01m[K/usr/include/boost/tr1/detail/config.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/tr1/unordered_set.hpp:8[m[K,
+                 from [01m[K/home/dhruv/RobotArm/WAMwkspc/src/rospack/include/rospack/rospack.h:108[m[K,
+                 from [01m[K/home/dhruv/RobotArm/WAMwkspc/src/rospack/src/rospack.cpp:28[m[K:
+[01m[K/usr/include/features.h:169:0:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+ # define _XOPEN_SOURCE 700
+[01;32m[K ^[m[K

@@ -1,0 +1,6 @@
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/pkgconfig/genpy.pc
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/python2.7/dist-packages/genpy/__init__.py
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/etc/ros/genmsg/genpy
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/genpy/cmake/genpy-extras.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/genpy/cmake/genpyConfig-version.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/genpy/cmake/genpyConfig.cmake

@@ -1,0 +1,8 @@
+prefix=/home/dhruv/RobotArm/WAMwkspc/install
+
+Name: cmake_modules
+Description: Description of cmake_modules
+Version: 0.4.2
+Cflags: 
+Libs: -L/home/dhruv/RobotArm/WAMwkspc/install/lib 
+Requires: 

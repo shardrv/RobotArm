@@ -1,0 +1,7 @@
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/pkgconfig/geneus.pc
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/python2.7/dist-packages/geneus/__init__.py
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/etc/ros/genmsg/geneus
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/geneus/cmake/geneusConfig-version.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/geneus/cmake/geneus-extras.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/geneus/cmake/geneusConfig.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/roseus/rospack_nosubdirs

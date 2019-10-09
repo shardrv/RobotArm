@@ -1,0 +1,8 @@
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/librosconsole_backend_interface.so
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/librosconsole.so
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/librosconsole_log4cxx.so
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/pkgconfig/rosconsole.pc
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/etc/catkin/profile.d/10.rosconsole.sh
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/rosconsole/cmake/rosconsole-extras.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/rosconsole/cmake/rosconsoleConfig.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/rosconsole/cmake/rosconsoleConfig-version.cmake

@@ -1,0 +1,8 @@
+prefix=/home/dhruv/RobotArm/WAMwkspc/devel/.private/gencpp
+
+Name: gencpp
+Description: Description of gencpp
+Version: 0.6.0
+Cflags: 
+Libs: -L/home/dhruv/RobotArm/WAMwkspc/devel/.private/gencpp/lib 
+Requires: genmsg

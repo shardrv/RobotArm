@@ -1,0 +1,38 @@
+[35m[1mScanning dependencies of target _std_srvs_generate_messages_check_deps_Trigger[0m
+[35m[1mScanning dependencies of target _std_srvs_generate_messages_check_deps_Empty[0m
+[35m[1mScanning dependencies of target _std_srvs_generate_messages_check_deps_SetBool[0m
+[  0%] Built target _std_srvs_generate_messages_check_deps_Trigger
+[  0%] Built target _std_srvs_generate_messages_check_deps_Empty
+[  0%] Built target _std_srvs_generate_messages_check_deps_SetBool
+[35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[  5%] [34m[1mGenerating EusLisp code from std_srvs/Trigger.srv[0m
+[ 11%] [34m[1mGenerating Python code from SRV std_srvs/Trigger[0m
+[ 17%] [34m[1mGenerating EusLisp code from std_srvs/SetBool.srv[0m
+[ 23%] [34m[1mGenerating Python code from SRV std_srvs/SetBool[0m
+[ 29%] [34m[1mGenerating EusLisp code from std_srvs/Empty.srv[0m
+[ 35%] [34m[1mGenerating Python code from SRV std_srvs/Empty[0m
+[ 41%] [34m[1mGenerating EusLisp manifest code for std_srvs[0m
+[ 47%] [34m[1mGenerating Python srv __init__.py for std_srvs[0m
+[ 47%] Built target std_srvs_generate_messages_py
+[35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[ 52%] [34m[1mGenerating Lisp code from std_srvs/Trigger.srv[0m
+[ 58%] [34m[1mGenerating Lisp code from std_srvs/SetBool.srv[0m
+[ 64%] [34m[1mGenerating Lisp code from std_srvs/Empty.srv[0m
+[ 64%] Built target std_srvs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[ 70%] [34m[1mGenerating C++ code from std_srvs/Trigger.srv[0m
+Traceback (most recent call last):
+  File "/home/dhruv/RobotArm/WAMwkspc/src/gencpp/scripts/gen_cpp.py", line 41, in <module>
+    import genmsg.template_tools
+  File "/home/dhruv/RobotArm/WAMwkspc/src/genmsg/src/genmsg/template_tools.py", line 39, in <module>
+    import em
+ImportError: No module named em
+CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make:65: recipe for target '/home/dhruv/RobotArm/WAMwkspc/devel/.private/std_srvs/include/std_srvs/Trigger.h' failed
+make[2]: *** [/home/dhruv/RobotArm/WAMwkspc/devel/.private/std_srvs/include/std_srvs/Trigger.h] Error 1
+CMakeFiles/Makefile2:530: recipe for target 'CMakeFiles/std_srvs_generate_messages_cpp.dir/all' failed
+make[1]: *** [CMakeFiles/std_srvs_generate_messages_cpp.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 70%] Built target std_srvs_generate_messages_eus
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

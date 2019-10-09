@@ -1,0 +1,8 @@
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/pkgconfig/ros_environment.pc
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/etc/catkin/profile.d/1.ros_distro.sh
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/etc/catkin/profile.d/1.ros_etc_dir.sh
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/etc/catkin/profile.d/1.ros_version.sh
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/etc/catkin/profile.d/cmake.lock
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/etc/catkin/profile.d/1.ros_package_path.sh
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/ros_environment/cmake/ros_environmentConfig.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/ros_environment/cmake/ros_environmentConfig-version.cmake

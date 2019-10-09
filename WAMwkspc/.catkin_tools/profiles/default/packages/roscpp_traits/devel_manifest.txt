@@ -1,0 +1,5 @@
+roscpp_core/roscpp_traits
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/roscpp_traits/cmake.lock /home/dhruv/RobotArm/WAMwkspc/devel/./cmake.lock
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/roscpp_traits/lib/pkgconfig/roscpp_traits.pc /home/dhruv/RobotArm/WAMwkspc/devel/lib/pkgconfig/roscpp_traits.pc
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/roscpp_traits/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake /home/dhruv/RobotArm/WAMwkspc/devel/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/roscpp_traits/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake /home/dhruv/RobotArm/WAMwkspc/devel/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake

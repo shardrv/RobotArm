@@ -1,0 +1,4 @@
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/pkgconfig/rosbuild.pc
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/etc/catkin/profile.d/10.rosbuild.sh
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/rosbuild/cmake/rosbuildConfig-version.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/rosbuild/cmake/rosbuildConfig.cmake

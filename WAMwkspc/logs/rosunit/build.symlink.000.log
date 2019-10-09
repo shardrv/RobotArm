@@ -1,0 +1,6 @@
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/pkgconfig/rosunit.pc
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/python2.7/dist-packages/rosunit/__init__.py
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/rosunit/cmake/rosunit-extras.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/rosunit/cmake/rosunitConfig-version.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/rosunit/cmake/rosunitConfig.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/bin/rosunit

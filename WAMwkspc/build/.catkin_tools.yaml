@@ -1,0 +1,6 @@
+devel_space: /home/dhruv/RobotArm/WAMwkspc/devel
+install: false
+install_space: /home/dhruv/RobotArm/WAMwkspc/install
+profile: default
+source_space: /home/dhruv/RobotArm/WAMwkspc/src
+workspace: /home/dhruv/RobotArm/WAMwkspc

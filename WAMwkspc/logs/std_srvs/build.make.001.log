@@ -1,0 +1,25 @@
+[  0%] Built target _std_srvs_generate_messages_check_deps_Trigger
+[  0%] Built target _std_srvs_generate_messages_check_deps_Empty
+[  0%] Built target _std_srvs_generate_messages_check_deps_SetBool
+[ 23%] Built target std_srvs_generate_messages_py
+[ 47%] Built target std_srvs_generate_messages_eus
+[ 64%] Built target std_srvs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[ 70%] [34m[1mGenerating C++ code from std_srvs/Trigger.srv[0m
+[ 76%] [34m[1mGenerating Javascript code from std_srvs/Trigger.srv[0m
+Traceback (most recent call last):
+  File "/home/dhruv/RobotArm/WAMwkspc/src/gencpp/scripts/gen_cpp.py", line 41, in <module>
+    import genmsg.template_tools
+  File "/home/dhruv/RobotArm/WAMwkspc/src/genmsg/src/genmsg/template_tools.py", line 39, in <module>
+    import em
+ImportError: No module named em
+[ 82%] [34m[1mGenerating Javascript code from std_srvs/SetBool.srv[0m
+CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make:65: recipe for target '/home/dhruv/RobotArm/WAMwkspc/devel/.private/std_srvs/include/std_srvs/Trigger.h' failed
+make[2]: *** [/home/dhruv/RobotArm/WAMwkspc/devel/.private/std_srvs/include/std_srvs/Trigger.h] Error 1
+make[1]: *** [CMakeFiles/std_srvs_generate_messages_cpp.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+CMakeFiles/Makefile2:530: recipe for target 'CMakeFiles/std_srvs_generate_messages_cpp.dir/all' failed
+[ 88%] [34m[1mGenerating Javascript code from std_srvs/Empty.srv[0m
+[ 88%] Built target std_srvs_generate_messages_nodejs
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

@@ -1,0 +1,5 @@
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/pkgconfig/rosparam.pc
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/python2.7/dist-packages/rosparam/__init__.py
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/rosparam/cmake/rosparamConfig.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/rosparam/cmake/rosparamConfig-version.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/bin/rosparam

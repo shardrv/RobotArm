@@ -1,0 +1,8 @@
+prefix=/home/dhruv/RobotArm/WAMwkspc/devel/.private/xmlrpcpp
+
+Name: xmlrpcpp
+Description: Description of xmlrpcpp
+Version: 1.12.14
+Cflags: -I/home/dhruv/RobotArm/WAMwkspc/src/ros_comm/xmlrpcpp/include
+Libs: -L/home/dhruv/RobotArm/WAMwkspc/devel/.private/xmlrpcpp/lib -lxmlrpcpp
+Requires: cpp_common rostime

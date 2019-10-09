@@ -1,0 +1,8 @@
+gennodejs
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/gennodejs/cmake.lock /home/dhruv/RobotArm/WAMwkspc/devel/./cmake.lock
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/gennodejs/lib/pkgconfig/gennodejs.pc /home/dhruv/RobotArm/WAMwkspc/devel/lib/pkgconfig/gennodejs.pc
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/gennodejs/lib/python2.7/dist-packages/gennodejs/__init__.py /home/dhruv/RobotArm/WAMwkspc/devel/lib/python2.7/dist-packages/gennodejs/__init__.py
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/gennodejs/etc/ros/genmsg/gennodejs /home/dhruv/RobotArm/WAMwkspc/devel/etc/ros/genmsg/gennodejs
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/gennodejs/share/gennodejs/cmake/gennodejs-extras.cmake /home/dhruv/RobotArm/WAMwkspc/devel/share/gennodejs/cmake/gennodejs-extras.cmake
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/gennodejs/share/gennodejs/cmake/gennodejsConfig.cmake /home/dhruv/RobotArm/WAMwkspc/devel/share/gennodejs/cmake/gennodejsConfig.cmake
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/gennodejs/share/gennodejs/cmake/gennodejsConfig-version.cmake /home/dhruv/RobotArm/WAMwkspc/devel/share/gennodejs/cmake/gennodejsConfig-version.cmake

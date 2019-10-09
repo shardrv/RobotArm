@@ -1,0 +1,4 @@
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/libcpp_common.so
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/pkgconfig/cpp_common.pc
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/cpp_common/cmake/cpp_commonConfig.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/cpp_common/cmake/cpp_commonConfig-version.cmake

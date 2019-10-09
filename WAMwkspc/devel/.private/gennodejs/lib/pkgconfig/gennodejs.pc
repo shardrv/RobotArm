@@ -1,0 +1,8 @@
+prefix=/home/dhruv/RobotArm/WAMwkspc/devel/.private/gennodejs
+
+Name: gennodejs
+Description: Description of gennodejs
+Version: 2.0.1
+Cflags: 
+Libs: -L/home/dhruv/RobotArm/WAMwkspc/devel/.private/gennodejs/lib 
+Requires: genmsg

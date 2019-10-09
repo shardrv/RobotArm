@@ -1,0 +1,5 @@
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/libxmlrpcpp.so
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/pkgconfig/xmlrpcpp.pc
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/xmlrpcpp/cmake/xmlrpcpp-extras.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake

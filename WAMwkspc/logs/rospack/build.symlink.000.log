@@ -1,0 +1,6 @@
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/librospack.so
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/pkgconfig/rospack.pc
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/rospack/cmake/rospackConfig.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/rospack/cmake/rospackConfig-version.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/bin/rosstack
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/bin/rospack

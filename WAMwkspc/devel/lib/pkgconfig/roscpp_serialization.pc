@@ -1,0 +1,1 @@
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/roscpp_serialization/lib/pkgconfig/roscpp_serialization.pc

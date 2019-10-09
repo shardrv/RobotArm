@@ -1,0 +1,8 @@
+prefix=/home/dhruv/RobotArm/WAMwkspc/install
+
+Name: message_generation
+Description: Description of message_generation
+Version: 0.4.0
+Cflags: 
+Libs: -L/home/dhruv/RobotArm/WAMwkspc/install/lib 
+Requires: gencpp geneus gennodejs genlisp genmsg genpy

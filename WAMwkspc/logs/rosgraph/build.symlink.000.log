@@ -1,0 +1,5 @@
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/pkgconfig/rosgraph.pc
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/python2.7/dist-packages/rosgraph/__init__.py
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/rosgraph/cmake/rosgraphConfig-version.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/rosgraph/cmake/rosgraphConfig.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/bin/rosgraph

@@ -1,0 +1,1 @@
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/rosclean/share/rosclean/cmake/roscleanConfig.cmake

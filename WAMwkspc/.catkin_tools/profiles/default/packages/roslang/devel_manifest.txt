@@ -1,0 +1,5 @@
+ros/roslang
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/roslang/cmake.lock /home/dhruv/RobotArm/WAMwkspc/devel/./cmake.lock
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/roslang/lib/pkgconfig/roslang.pc /home/dhruv/RobotArm/WAMwkspc/devel/lib/pkgconfig/roslang.pc
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/roslang/share/roslang/cmake/roslangConfig-version.cmake /home/dhruv/RobotArm/WAMwkspc/devel/share/roslang/cmake/roslangConfig-version.cmake
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/roslang/share/roslang/cmake/roslangConfig.cmake /home/dhruv/RobotArm/WAMwkspc/devel/share/roslang/cmake/roslangConfig.cmake

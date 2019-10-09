@@ -1,0 +1,8 @@
+# CMake generated Testfile for 
+# Source directory: /home/dhruv/RobotArm/WAMwkspc/src/rospack/test
+# Build directory: /home/dhruv/RobotArm/WAMwkspc/build/rospack/test
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(_ctest_rospack_gtest_rospack-utest "/home/dhruv/RobotArm/WAMwkspc/build/rospack/catkin_generated/env_cached.sh" "/home/dhruv/anaconda2/bin/python" "/home/dhruv/RobotArm/WAMwkspc/src/catkin/cmake/test/run_tests.py" "/home/dhruv/RobotArm/WAMwkspc/build/rospack/test_results/rospack/gtest-rospack-utest.xml" "--working-dir" "/home/dhruv/RobotArm/WAMwkspc/build/rospack/test" "--return-code" "/home/dhruv/RobotArm/WAMwkspc/devel/.private/rospack/lib/rospack/rospack-utest --gtest_output=xml:/home/dhruv/RobotArm/WAMwkspc/build/rospack/test_results/rospack/gtest-rospack-utest.xml")
+add_test(_ctest_rospack_nosetests_test.test "/home/dhruv/RobotArm/WAMwkspc/build/rospack/catkin_generated/env_cached.sh" "/home/dhruv/anaconda2/bin/python" "/home/dhruv/RobotArm/WAMwkspc/src/catkin/cmake/test/run_tests.py" "/home/dhruv/RobotArm/WAMwkspc/build/rospack/test_results/rospack/nosetests-test.test.xml" "--working-dir" "/home/dhruv/RobotArm/WAMwkspc/build/rospack/test/test" "--return-code" "\"/usr/bin/cmake\" -E make_directory /home/dhruv/RobotArm/WAMwkspc/build/rospack/test_results/rospack" "/usr/bin/nosetests-2.7 -P --process-timeout=60 --where=/home/dhruv/RobotArm/WAMwkspc/build/rospack/test/test --with-xunit --xunit-file=/home/dhruv/RobotArm/WAMwkspc/build/rospack/test_results/rospack/nosetests-test.test.xml")

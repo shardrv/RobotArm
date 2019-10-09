@@ -1,0 +1,5 @@
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/pkgconfig/rosmake.pc
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/python2.7/dist-packages/rosmake/__init__.py
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/rosmake/cmake/rosmakeConfig.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/rosmake/cmake/rosmakeConfig-version.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/bin/rosmake

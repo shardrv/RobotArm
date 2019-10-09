@@ -1,0 +1,7 @@
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/libroslib.so
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/pkgconfig/roslib.pc
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/python2.7/dist-packages/roslib/__init__.py
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/python2.7/dist-packages/ros/__init__.py
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/roslib/cmake/roslib-extras.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/roslib/cmake/roslibConfig-version.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/roslib/cmake/roslibConfig.cmake

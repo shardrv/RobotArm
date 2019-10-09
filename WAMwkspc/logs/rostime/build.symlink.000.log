@@ -1,0 +1,4 @@
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/librostime.so
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/pkgconfig/rostime.pc
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/rostime/cmake/rostimeConfig.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/rostime/cmake/rostimeConfig-version.cmake

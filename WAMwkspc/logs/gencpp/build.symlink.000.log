@@ -1,0 +1,6 @@
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/pkgconfig/gencpp.pc
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/lib/python2.7/dist-packages/gencpp/__init__.py
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/etc/ros/genmsg/gencpp
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/gencpp/cmake/gencpp-extras.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/gencpp/cmake/gencppConfig-version.cmake
+Symlinking /home/dhruv/RobotArm/WAMwkspc/devel/share/gencpp/cmake/gencppConfig.cmake

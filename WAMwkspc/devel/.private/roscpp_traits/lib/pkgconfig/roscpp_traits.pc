@@ -1,0 +1,8 @@
+prefix=/home/dhruv/RobotArm/WAMwkspc/devel/.private/roscpp_traits
+
+Name: roscpp_traits
+Description: Description of roscpp_traits
+Version: 0.6.11
+Cflags: -I/home/dhruv/RobotArm/WAMwkspc/src/roscpp_core/roscpp_traits/include
+Libs: -L/home/dhruv/RobotArm/WAMwkspc/devel/.private/roscpp_traits/lib 
+Requires: cpp_common rostime

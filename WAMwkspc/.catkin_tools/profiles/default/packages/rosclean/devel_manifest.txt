@@ -1,0 +1,8 @@
+ros/rosclean
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/rosclean/cmake.lock /home/dhruv/RobotArm/WAMwkspc/devel/./cmake.lock
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/rosclean/lib/pkgconfig/rosclean.pc /home/dhruv/RobotArm/WAMwkspc/devel/lib/pkgconfig/rosclean.pc
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/rosclean/lib/python2.7/dist-packages/rosclean/__init__.py /home/dhruv/RobotArm/WAMwkspc/devel/lib/python2.7/dist-packages/rosclean/__init__.py
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/rosclean/share/rosclean/cmake/roscleanConfig-version.cmake /home/dhruv/RobotArm/WAMwkspc/devel/share/rosclean/cmake/roscleanConfig-version.cmake
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/rosclean/share/rosclean/cmake/roscleanConfig.cmake /home/dhruv/RobotArm/WAMwkspc/devel/share/rosclean/cmake/roscleanConfig.cmake
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/rosclean/bin/cmake.lock /home/dhruv/RobotArm/WAMwkspc/devel/bin/cmake.lock
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/rosclean/bin/rosclean /home/dhruv/RobotArm/WAMwkspc/devel/bin/rosclean

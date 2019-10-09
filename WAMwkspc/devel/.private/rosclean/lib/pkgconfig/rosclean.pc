@@ -1,0 +1,8 @@
+prefix=/home/dhruv/RobotArm/WAMwkspc/devel/.private/rosclean
+
+Name: rosclean
+Description: Description of rosclean
+Version: 1.14.6
+Cflags: 
+Libs: -L/home/dhruv/RobotArm/WAMwkspc/devel/.private/rosclean/lib 
+Requires: 

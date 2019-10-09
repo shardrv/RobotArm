@@ -1,0 +1,1 @@
+/home/dhruv/RobotArm/WAMwkspc/devel/.private/rosmake/lib/pkgconfig/rosmake.pc

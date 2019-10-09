@@ -126,6 +126,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/dhruv/RobotArm/wam_dir/build/gtest/cmake_install.cmake")
+  include("/home/dhruv/RobotArm/wam_dir/build/armmove/cmake_install.cmake")
 
 endif()
 

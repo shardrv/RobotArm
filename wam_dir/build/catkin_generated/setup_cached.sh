@@ -7,8 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/dhruv/RobotArm/wam_dir/devel:/opt/ros/kinetic"
-export LD_LIBRARY_PATH="/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu"
+export CMAKE_PREFIX_PATH="/home/dhruv/RobotArm/wam_dir/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/dhruv/RobotArm/wam_dir/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/dhruv/RobotArm/wam_dir/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/dhruv/RobotArm/wam_dir/build"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/dhruv/RobotArm/wam_dir/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/dhruv/RobotArm/wam_dir/src:/opt/ros/kinetic/share"
+export ROS_PACKAGE_PATH="/home/dhruv/RobotArm/wam_dir/src:$ROS_PACKAGE_PATH"

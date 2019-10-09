@@ -1,9 +1,12 @@
 #!/usr/bin/env python
 
+#include "wam_srvs/Hold.h"
+
 import rospy, cv2, re, sys
 import numpy as np
 from std_msgs.msg import String
 from sensor_msgs.msg import CompressedImage, JointState
+from wam_msgs.msg import MatrixMN
 from geometry_msgs.msg import PoseStamped, Pose
 from std_srvs.srv import Empty
 from wam_srvs.srv import Hold
@@ -18,6 +21,7 @@ from wam_srvs.srv import BHandGraspPos
 from wam_srvs.srv import BHandSpreadPos
 from wam_srvs.srv import Teach
 
+
 from cv_bridge import CvBridge, CvBridgeError
 from python_qt_binding.QtCore import *
 from python_qt_binding.QtGui import *
@@ -26,14 +30,29 @@ from python_qt_binding.QtWidgets import *
 TEXT_WIDTH = 420
 TEXT_HEIGHT = 150
 
+cond1 = 0
+cond2 = 0
+
+
+#Set target value of the experiment
+target = [0.0, 0.0, 0.0, 1.57, 0.0, 0.0, 0.0]
+waypoints_filename1 = "/home/froglake/control_workspace/src/weight_control/data1.txt"
+waypoints_filename2 = "/home/froglake/control_workspace/src/weight_control/data2.txt"
+waypoints_filename3 = "/home/froglake/control_workspace/src/weight_control/data3.txt"
 
 print "Program running..."
+
+def write_to_file(path, content):
+	file = open(path, "w+")
+	file.write(content)
+	file.close()
 
 class Robot():
 #############################################################################################################
 # INITIALIZATION METHODS
 #############################################################################################################
 	def __init__(self):
+		print "DEF INIT is RUNNING"
 		#super(WamTeleopWidget, self).__init__()
 		#self.setWindowTitle("WAM Teleop Widget")
 		# global variables
@@ -42,6 +61,8 @@ class Robot():
 		self.current_pose = PoseStamped()
 		self.previous_joint_state = JointState()
 		self.current_joint_state = JointState()
+		self.jacobian_data = MatrixMN()
+#		print self.jacobian_value
 		# check which robot is running
 
 		T = rospy.get_published_topics()
@@ -54,11 +75,11 @@ class Robot():
 				self.ns = "/zeus"
 				self.dof = 7
 				connected = True
-			elif re.match('.*?(slax).*?', text) != None:
-				print "Connected to Slax"
-				self.ns = "/slax"
-				self.dof = 4
-				connected = True
+#			elif re.match('.*?(slax).*?', text) != None:
+#				print "Connected to Slax"
+#				self.ns = "/slax"
+#				self.dof = 4
+#				connected = True
 			else:
 				rospy.sleep(2.)
 		print "Waiting for WAM services..."
@@ -87,10 +108,20 @@ class Robot():
 		self.bhand_GP = rospy.ServiceProxy(self.ns + "/bhand/grasp_pos", BHandGraspPos)
 		self.bhand_SP = rospy.ServiceProxy(self.ns + "/bhand/spread_pos", BHandSpreadPos)
 		#self.teach_pos = rospy.ServiceProxy(self.ns + "/wam/Teach", Empty)
-		self.teach_motion_srvs = rospy.ServiceProxy("/" + ns + "/wam/teach_motion", Teach)
+#		self.teach_motion_srvs = rospy.ServiceProxy("/" + ns + "/wam/teach_motion", Teach)
 
 		# setup subscribers and publishers
-		joint_state_sub = rospy.Subscriber(self.ns + "/wam/joint_states",  JointState, self.joint_state_callback, queue_size = 3)
+		rospy.init_node('jacobian')
+
+
+
+#		if (cond1 == 0 and cond2 == 0): 
+		self.joint_state_sub = rospy.Subscriber(self.ns + "/wam/joint_states",  JointState, self.joint_state_callback, queue_size = 3)
+		self.jacobian_sub = rospy.Subscriber(self.ns + "/wam/jacobian",  MatrixMN, self.jacobian_callback, queue_size = 3)
+		rospy.spin()
+
+
+
 		#camera_sub = rospy.Subscriber("/usb_cam/image_raw/compressed",  CompressedImage, self.camera_callback, queue_size = 3)
 		pose_sub = rospy.Subscriber(self.ns + "/wam/pose",  PoseStamped, self.pose_callback, queue_size = 3)
 		self.pub_ = rospy.Publisher('/task_coordinates', String, queue_size = 1)
@@ -125,7 +156,7 @@ class Robot():
 		rospy.wait_for_service(self.ns + "/bhand/spread_vel")
 		rospy.wait_for_service(self.ns + "/bhand/grasp_pos")
 		rospy.wait_for_service(self.ns + "/bhand/spread_pos")
-		rospy.wait_for_service(self.ns + "/wam/teach_pos")
+#		rospy.wait_for_service(self.ns + "/wam/teach_pos")
 		return True
 
 
@@ -150,40 +181,10 @@ class Robot():
 		else:
 			return True
 
-# set joint position lock to parameter value
-
-	def lock_joint_position(bool lock)
-		{ 
-			wam_srvs::Hold req;
-			req.request.hold = lock;
-			return hold_jnt_srvs.call(req);  
-		}
-		
-
-# teach waypoints in joint space
-	def teach_waypoints_joint(self)
-		try:
-		self.lock_joint_position(false);
-		capturing = true;
-		stringstream ss;
-		string input = "";
-		print ("Move arm to desired waypoint then press 'c' to save position\nPress 'd' to finish and save to file\n")
-		while (capturing) {
-			while (!std::getline(std::cin, input)) { continue; } # wait for users input
-			if (input[0] == 'c' || input[0] == 'C') {   
-				for (int i = 0; i < dof; ++i) { ss << previous_joint_state.position[i] << " "; }
-				write_to_file(waypoints_filename, ss.str() + "\n");
-				std::cout << "\tWriting [" << ss.str() << "] to " << waypoints_filename << ".txt\n";
-				ss.str(std::string());
-			} else if (input[0] == 'd' || input[0] == 'D') {
-				capturing = false;
-			} else  {
-				print("Press 'c' to capture waypoint and 'd' when done\n")
-			}
-		}
-		return true;
-	}
-
+	def write_to_file(path, content):
+		file = open(path, "w")
+		file.write(content)
+		file.close()
 
 
 #############################################################################################################
@@ -245,23 +246,44 @@ class Robot():
 			print "Service call bhand_SV failed: %s" %e
 			return False
 
-#	def teaching(self):
-#		try:
-#			return self.teach_pos()
-#		except rospy.ServiceException, e:
-#			print "Service call bhand_SV failed: %s" %e
-#			return False
 
-	def teach_motion(self):
-		name = raw_input("Please enter task name >> ")
-		time = datetime.datetime.now().strftime("%Y%m%d%H%M")
-		filename = name + "_" + time[2:]
+	def lock_joint_position(self, lock):
 		try:
-  			self.teach_motion_srvs(filename)
-			print "Saving motion to " + filename
-			self.textfiles.append(filename)
-		except rospy.ServiceException as exc:
-  			print("Service Error: " + str(exc))
+			return self.hold_joint_pos(lock)
+		except rospy.ServiceException, e:
+			print "Service call hold_joint_pos failed: %s" %e
+			return False
+
+######################################################################################################################################################
+######################################################## TEACH WAYPOINTS ##########################################################################
+###############################Teach the robot to move write in python teach waypoints in joint space##############################################
+######################################################################################################################################################
+#	def teach_waypoints_joint(self):
+#		lock_joint_position(False);
+
+#		capturing = True;
+#		user = raw_input("Move arm to desired waypoint then press 'c' to save position\nPress 'd' to finish and save to file\n")
+
+#		while (capturing = True): 		
+#			while (!std::getline(std::cin, input)) 
+#			 	continue 
+#			 	 wait for users input	
+#			if user == 'c' or user == 'C':    
+#				for i in range(0, dof):
+#				 	print ss, previous_joint_state.position[i], " "
+				
+#				write_to_file(waypoints_filename, ss.str() + "\n")
+#				print "\tWriting [", ss.str(), "] to ", waypoints_filename, ".txt\n"
+
+#			elif user == 'd' or user == 'D': 
+#				capturing = False			 
+#			else:  
+#				print "Press 'c' to capture waypoint and 'd' when done\n"			
+#		return True
+
+######################################################################################################################################################
+######################################################################################################################################################
+
 
 #############################################################################################################
 # CONTROLLER METHODS 
@@ -372,6 +394,30 @@ class Robot():
 		self.current_joint_state.position = data.position
 		self.current_joint_state.velocity = data.velocity
 		self.current_joint_state.effort = data.effort
+#		c1 = 0
+#		if c1 == 0:
+		write_to_file(waypoints_filename2, str(self.current_joint_state.position))
+		write_to_file(waypoints_filename3, str(self.current_joint_state.effort))
+#			c1 = c1+1
+		self.joint_state_sub.unregister()
+
+	def jacobian_callback(self, data):
+		self.jacobian_rows = data.m
+		self.jacobian_cols = data.n
+		self.jacobian_data = data.data
+		#print "in callback"
+		#print self.jacobian_data
+#		c2 = 0
+#		if c2 == 0:
+		write_to_file(waypoints_filename1, str(self.jacobian_data))
+#		c2 = c2+1
+		self.jacobian_sub.unregister()
+
+
+
+##############################################################
+#######################MAIN ROUTINES##########################
+##############################################################
 
 #def main():
 #	print "in main"
@@ -380,36 +426,127 @@ class Robot():
 #	p.close_grasp()	
 #main()
 
+
 p = Robot()
 print p.dof
 
+#p.__init__()
+
+#rospy.signal_shutdown(reason)
+
 #Initialize the robot arm
-p.initialize_wam()
-p.initialize_bhand()
 
-#Go to specific position for the experimental setup
-#p.teach_motion()
-p.teach_motion()
+#INITIALIZE WAM
+user = raw_input("press enter to initialise WAM")
+if user == "":
+    p.initialize_wam()
+else:
+    print "you haven't pressed enter"
+#p.initialize_wam()
+rospy.sleep(5)
+print "WAM has been initialised..........."
 
+
+#INITIALIZE BHAND
+user = raw_input("press enter to initialise BHAND")
+if user == "":
+    p.initialize_bhand()
+else:
+    print "you haven't pressed enter"
+#p.initialize_bhand()
+rospy.sleep(5)
+print "BHAND initialised......"
+
+
+
+##############################################################
+#Main program implementation to check the movement of the wam
+##############################################################
+user = raw_input("press enter to initialise BHAND")
+if user == "":
+   p.initialize_bhand()
+else:
+   print "you haven't pressed enter"
+Go to specific position for the experimental setup
+p.change_position()
+print "Moving to the new position......"
+rospy.sleep(5)
+
+
+
+#JOINT LOCK
+user = raw_input("press enter to lock joint position")
+if user == "":
+    p.lock_joint_position(True)
+else:
+    print "you haven't pressed enter"
+#p.lock_joint_position(True)
+rospy.sleep(5)
+print "Joints have been locked......"
+
+
+#SPREAD OPEN
+user = raw_input("press enter to open spread")
+if user == "":
+    p.open_spread()
+else:
+    print "you haven't pressed enter"
+#p.lock_joint_position(True)
+rospy.sleep(5)
+print "Spread open......"
+
+
+#GRASP CLOSE
+user = raw_input("press enter to close grasp")
+if user == "":
+    p.close_grasp()
+else:
+    print "you haven't pressed enter"
+#p.lock_joint_position(True)
+rospy.sleep(5)
+print "Grasp closed......"
+
+
+#GRASP OPEN
+user = raw_input("press enter to open grasp")
+if user == "":
+    p.open_grasp()
+else:
+    print "you haven't pressed enter"
+#p.lock_joint_position(True)
+rospy.sleep(5)
+print "Grasp opened......"
+
+
+##############################################################
+#OTHER TASKS - SEE AFTER
+#rospy.sleep(5)
+#Move to specific position11
+#print "Move to target position 0.........." 
+#p.move_joints(target)
+
+#rospy.sleep(5)
 #Take proper orientation
-
+#p.open_grasp()
+#rospy.sleep(5)
+#p.open_spread()
+#rospy.sleep(5)
 
 #Open grasp and wait for the user to press enter
-print "Hit enter to grasp onto the object......"
-
+#print "Hit enter to grasp onto the object......"
+#p.close_grasp()
+#rospy.sleep(5)
 
 #Close grasp, Find Joint efforts, Jacobian and finger position and Record in file
-
+#p.jacobian_callback(target)
 
 #Wait for user to press enter and open grasp
-print "Now opening grasp, please catch the object......" 
-
-
+#print "Now opening grasp, please catch the object......" 
+#p.open_grasp()
+#rospy.sleep(5)
+#p.close_spread()
 
 #Goto the same state as before and record joint efforts
 
-
-
 #Final calculation of the Forces and record
-
 

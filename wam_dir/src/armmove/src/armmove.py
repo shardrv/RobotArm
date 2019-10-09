@@ -467,7 +467,7 @@ if user == "":
    p.initialize_bhand()
 else:
    print "you haven't pressed enter"
-Go to specific position for the experimental setup
+#Go to specific position for the experimental setup
 p.change_position()
 print "Moving to the new position......"
 rospy.sleep(5)

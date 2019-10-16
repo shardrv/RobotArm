@@ -8,3 +8,4 @@
 
 # modified environment variables
 export PWD="/home/dhruv/RobotArm/wam_dir/build"
+export PYTHONPATH="/home/dhruv/RobotArm/wam_dir/devel/lib/python2.7/dist-packages:$PYTHONPATH"

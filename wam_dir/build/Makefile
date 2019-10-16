@@ -283,6 +283,461 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
+# Target rules for targets named _catkin_empty_exported_target
+
+# Build rule for target.
+_catkin_empty_exported_target: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _catkin_empty_exported_target
+.PHONY : _catkin_empty_exported_target
+
+# fast build rule for target.
+_catkin_empty_exported_target/fast:
+	$(MAKE) -f wam_common/wam_common/CMakeFiles/_catkin_empty_exported_target.dir/build.make wam_common/wam_common/CMakeFiles/_catkin_empty_exported_target.dir/build
+.PHONY : _catkin_empty_exported_target/fast
+
+#=============================================================================
+# Target rules for targets named _wam_msgs_generate_messages_check_deps_RTJointPos
+
+# Build rule for target.
+_wam_msgs_generate_messages_check_deps_RTJointPos: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_msgs_generate_messages_check_deps_RTJointPos
+.PHONY : _wam_msgs_generate_messages_check_deps_RTJointPos
+
+# fast build rule for target.
+_wam_msgs_generate_messages_check_deps_RTJointPos/fast:
+	$(MAKE) -f wam_common/wam_msgs/CMakeFiles/_wam_msgs_generate_messages_check_deps_RTJointPos.dir/build.make wam_common/wam_msgs/CMakeFiles/_wam_msgs_generate_messages_check_deps_RTJointPos.dir/build
+.PHONY : _wam_msgs_generate_messages_check_deps_RTJointPos/fast
+
+#=============================================================================
+# Target rules for targets named wam_msgs_generate_messages
+
+# Build rule for target.
+wam_msgs_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wam_msgs_generate_messages
+.PHONY : wam_msgs_generate_messages
+
+# fast build rule for target.
+wam_msgs_generate_messages/fast:
+	$(MAKE) -f wam_common/wam_msgs/CMakeFiles/wam_msgs_generate_messages.dir/build.make wam_common/wam_msgs/CMakeFiles/wam_msgs_generate_messages.dir/build
+.PHONY : wam_msgs_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named wam_msgs_genlisp
+
+# Build rule for target.
+wam_msgs_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wam_msgs_genlisp
+.PHONY : wam_msgs_genlisp
+
+# fast build rule for target.
+wam_msgs_genlisp/fast:
+	$(MAKE) -f wam_common/wam_msgs/CMakeFiles/wam_msgs_genlisp.dir/build.make wam_common/wam_msgs/CMakeFiles/wam_msgs_genlisp.dir/build
+.PHONY : wam_msgs_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named wam_msgs_generate_messages_eus
+
+# Build rule for target.
+wam_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wam_msgs_generate_messages_eus
+.PHONY : wam_msgs_generate_messages_eus
+
+# fast build rule for target.
+wam_msgs_generate_messages_eus/fast:
+	$(MAKE) -f wam_common/wam_msgs/CMakeFiles/wam_msgs_generate_messages_eus.dir/build.make wam_common/wam_msgs/CMakeFiles/wam_msgs_generate_messages_eus.dir/build
+.PHONY : wam_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named _wam_msgs_generate_messages_check_deps_RTToolInfo
+
+# Build rule for target.
+_wam_msgs_generate_messages_check_deps_RTToolInfo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_msgs_generate_messages_check_deps_RTToolInfo
+.PHONY : _wam_msgs_generate_messages_check_deps_RTToolInfo
+
+# fast build rule for target.
+_wam_msgs_generate_messages_check_deps_RTToolInfo/fast:
+	$(MAKE) -f wam_common/wam_msgs/CMakeFiles/_wam_msgs_generate_messages_check_deps_RTToolInfo.dir/build.make wam_common/wam_msgs/CMakeFiles/_wam_msgs_generate_messages_check_deps_RTToolInfo.dir/build
+.PHONY : _wam_msgs_generate_messages_check_deps_RTToolInfo/fast
+
+#=============================================================================
+# Target rules for targets named wam_msgs_generate_messages_py
+
+# Build rule for target.
+wam_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wam_msgs_generate_messages_py
+.PHONY : wam_msgs_generate_messages_py
+
+# fast build rule for target.
+wam_msgs_generate_messages_py/fast:
+	$(MAKE) -f wam_common/wam_msgs/CMakeFiles/wam_msgs_generate_messages_py.dir/build.make wam_common/wam_msgs/CMakeFiles/wam_msgs_generate_messages_py.dir/build
+.PHONY : wam_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named _wam_msgs_generate_messages_check_deps_MatrixMN
+
+# Build rule for target.
+_wam_msgs_generate_messages_check_deps_MatrixMN: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_msgs_generate_messages_check_deps_MatrixMN
+.PHONY : _wam_msgs_generate_messages_check_deps_MatrixMN
+
+# fast build rule for target.
+_wam_msgs_generate_messages_check_deps_MatrixMN/fast:
+	$(MAKE) -f wam_common/wam_msgs/CMakeFiles/_wam_msgs_generate_messages_check_deps_MatrixMN.dir/build.make wam_common/wam_msgs/CMakeFiles/_wam_msgs_generate_messages_check_deps_MatrixMN.dir/build
+.PHONY : _wam_msgs_generate_messages_check_deps_MatrixMN/fast
+
+#=============================================================================
+# Target rules for targets named _wam_msgs_generate_messages_check_deps_RTCartVel
+
+# Build rule for target.
+_wam_msgs_generate_messages_check_deps_RTCartVel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_msgs_generate_messages_check_deps_RTCartVel
+.PHONY : _wam_msgs_generate_messages_check_deps_RTCartVel
+
+# fast build rule for target.
+_wam_msgs_generate_messages_check_deps_RTCartVel/fast:
+	$(MAKE) -f wam_common/wam_msgs/CMakeFiles/_wam_msgs_generate_messages_check_deps_RTCartVel.dir/build.make wam_common/wam_msgs/CMakeFiles/_wam_msgs_generate_messages_check_deps_RTCartVel.dir/build
+.PHONY : _wam_msgs_generate_messages_check_deps_RTCartVel/fast
+
+#=============================================================================
+# Target rules for targets named _wam_msgs_generate_messages_check_deps_RTCartPos
+
+# Build rule for target.
+_wam_msgs_generate_messages_check_deps_RTCartPos: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_msgs_generate_messages_check_deps_RTCartPos
+.PHONY : _wam_msgs_generate_messages_check_deps_RTCartPos
+
+# fast build rule for target.
+_wam_msgs_generate_messages_check_deps_RTCartPos/fast:
+	$(MAKE) -f wam_common/wam_msgs/CMakeFiles/_wam_msgs_generate_messages_check_deps_RTCartPos.dir/build.make wam_common/wam_msgs/CMakeFiles/_wam_msgs_generate_messages_check_deps_RTCartPos.dir/build
+.PHONY : _wam_msgs_generate_messages_check_deps_RTCartPos/fast
+
+#=============================================================================
+# Target rules for targets named wam_msgs_gencpp
+
+# Build rule for target.
+wam_msgs_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wam_msgs_gencpp
+.PHONY : wam_msgs_gencpp
+
+# fast build rule for target.
+wam_msgs_gencpp/fast:
+	$(MAKE) -f wam_common/wam_msgs/CMakeFiles/wam_msgs_gencpp.dir/build.make wam_common/wam_msgs/CMakeFiles/wam_msgs_gencpp.dir/build
+.PHONY : wam_msgs_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named wam_msgs_geneus
+
+# Build rule for target.
+wam_msgs_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wam_msgs_geneus
+.PHONY : wam_msgs_geneus
+
+# fast build rule for target.
+wam_msgs_geneus/fast:
+	$(MAKE) -f wam_common/wam_msgs/CMakeFiles/wam_msgs_geneus.dir/build.make wam_common/wam_msgs/CMakeFiles/wam_msgs_geneus.dir/build
+.PHONY : wam_msgs_geneus/fast
+
+#=============================================================================
+# Target rules for targets named _wam_msgs_generate_messages_check_deps_RTOrtnVel
+
+# Build rule for target.
+_wam_msgs_generate_messages_check_deps_RTOrtnVel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_msgs_generate_messages_check_deps_RTOrtnVel
+.PHONY : _wam_msgs_generate_messages_check_deps_RTOrtnVel
+
+# fast build rule for target.
+_wam_msgs_generate_messages_check_deps_RTOrtnVel/fast:
+	$(MAKE) -f wam_common/wam_msgs/CMakeFiles/_wam_msgs_generate_messages_check_deps_RTOrtnVel.dir/build.make wam_common/wam_msgs/CMakeFiles/_wam_msgs_generate_messages_check_deps_RTOrtnVel.dir/build
+.PHONY : _wam_msgs_generate_messages_check_deps_RTOrtnVel/fast
+
+#=============================================================================
+# Target rules for targets named _wam_msgs_generate_messages_check_deps_RTPose
+
+# Build rule for target.
+_wam_msgs_generate_messages_check_deps_RTPose: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_msgs_generate_messages_check_deps_RTPose
+.PHONY : _wam_msgs_generate_messages_check_deps_RTPose
+
+# fast build rule for target.
+_wam_msgs_generate_messages_check_deps_RTPose/fast:
+	$(MAKE) -f wam_common/wam_msgs/CMakeFiles/_wam_msgs_generate_messages_check_deps_RTPose.dir/build.make wam_common/wam_msgs/CMakeFiles/_wam_msgs_generate_messages_check_deps_RTPose.dir/build
+.PHONY : _wam_msgs_generate_messages_check_deps_RTPose/fast
+
+#=============================================================================
+# Target rules for targets named wam_msgs_genpy
+
+# Build rule for target.
+wam_msgs_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wam_msgs_genpy
+.PHONY : wam_msgs_genpy
+
+# fast build rule for target.
+wam_msgs_genpy/fast:
+	$(MAKE) -f wam_common/wam_msgs/CMakeFiles/wam_msgs_genpy.dir/build.make wam_common/wam_msgs/CMakeFiles/wam_msgs_genpy.dir/build
+.PHONY : wam_msgs_genpy/fast
+
+#=============================================================================
+# Target rules for targets named _wam_msgs_generate_messages_check_deps_RTJointVel
+
+# Build rule for target.
+_wam_msgs_generate_messages_check_deps_RTJointVel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_msgs_generate_messages_check_deps_RTJointVel
+.PHONY : _wam_msgs_generate_messages_check_deps_RTJointVel
+
+# fast build rule for target.
+_wam_msgs_generate_messages_check_deps_RTJointVel/fast:
+	$(MAKE) -f wam_common/wam_msgs/CMakeFiles/_wam_msgs_generate_messages_check_deps_RTJointVel.dir/build.make wam_common/wam_msgs/CMakeFiles/_wam_msgs_generate_messages_check_deps_RTJointVel.dir/build
+.PHONY : _wam_msgs_generate_messages_check_deps_RTJointVel/fast
+
+#=============================================================================
+# Target rules for targets named _wam_msgs_generate_messages_check_deps_RTOrtnPos
+
+# Build rule for target.
+_wam_msgs_generate_messages_check_deps_RTOrtnPos: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_msgs_generate_messages_check_deps_RTOrtnPos
+.PHONY : _wam_msgs_generate_messages_check_deps_RTOrtnPos
+
+# fast build rule for target.
+_wam_msgs_generate_messages_check_deps_RTOrtnPos/fast:
+	$(MAKE) -f wam_common/wam_msgs/CMakeFiles/_wam_msgs_generate_messages_check_deps_RTOrtnPos.dir/build.make wam_common/wam_msgs/CMakeFiles/_wam_msgs_generate_messages_check_deps_RTOrtnPos.dir/build
+.PHONY : _wam_msgs_generate_messages_check_deps_RTOrtnPos/fast
+
+#=============================================================================
+# Target rules for targets named _wam_msgs_generate_messages_check_deps_RTVelocity
+
+# Build rule for target.
+_wam_msgs_generate_messages_check_deps_RTVelocity: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_msgs_generate_messages_check_deps_RTVelocity
+.PHONY : _wam_msgs_generate_messages_check_deps_RTVelocity
+
+# fast build rule for target.
+_wam_msgs_generate_messages_check_deps_RTVelocity/fast:
+	$(MAKE) -f wam_common/wam_msgs/CMakeFiles/_wam_msgs_generate_messages_check_deps_RTVelocity.dir/build.make wam_common/wam_msgs/CMakeFiles/_wam_msgs_generate_messages_check_deps_RTVelocity.dir/build
+.PHONY : _wam_msgs_generate_messages_check_deps_RTVelocity/fast
+
+#=============================================================================
+# Target rules for targets named wam_msgs_generate_messages_lisp
+
+# Build rule for target.
+wam_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wam_msgs_generate_messages_lisp
+.PHONY : wam_msgs_generate_messages_lisp
+
+# fast build rule for target.
+wam_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f wam_common/wam_msgs/CMakeFiles/wam_msgs_generate_messages_lisp.dir/build.make wam_common/wam_msgs/CMakeFiles/wam_msgs_generate_messages_lisp.dir/build
+.PHONY : wam_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named _wam_msgs_generate_messages_check_deps_RTOrtn
+
+# Build rule for target.
+_wam_msgs_generate_messages_check_deps_RTOrtn: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_msgs_generate_messages_check_deps_RTOrtn
+.PHONY : _wam_msgs_generate_messages_check_deps_RTOrtn
+
+# fast build rule for target.
+_wam_msgs_generate_messages_check_deps_RTOrtn/fast:
+	$(MAKE) -f wam_common/wam_msgs/CMakeFiles/_wam_msgs_generate_messages_check_deps_RTOrtn.dir/build.make wam_common/wam_msgs/CMakeFiles/_wam_msgs_generate_messages_check_deps_RTOrtn.dir/build
+.PHONY : _wam_msgs_generate_messages_check_deps_RTOrtn/fast
+
+#=============================================================================
+# Target rules for targets named wam_msgs_generate_messages_cpp
+
+# Build rule for target.
+wam_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wam_msgs_generate_messages_cpp
+.PHONY : wam_msgs_generate_messages_cpp
+
+# fast build rule for target.
+wam_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f wam_common/wam_msgs/CMakeFiles/wam_msgs_generate_messages_cpp.dir/build.make wam_common/wam_msgs/CMakeFiles/wam_msgs_generate_messages_cpp.dir/build
+.PHONY : wam_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named wam_msgs_generate_messages_nodejs
+
+# Build rule for target.
+wam_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wam_msgs_generate_messages_nodejs
+.PHONY : wam_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+wam_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f wam_common/wam_msgs/CMakeFiles/wam_msgs_generate_messages_nodejs.dir/build.make wam_common/wam_msgs/CMakeFiles/wam_msgs_generate_messages_nodejs.dir/build
+.PHONY : wam_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named wam_msgs_gennodejs
+
+# Build rule for target.
+wam_msgs_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wam_msgs_gennodejs
+.PHONY : wam_msgs_gennodejs
+
+# fast build rule for target.
+wam_msgs_gennodejs/fast:
+	$(MAKE) -f wam_common/wam_msgs/CMakeFiles/wam_msgs_gennodejs.dir/build.make wam_common/wam_msgs/CMakeFiles/wam_msgs_gennodejs.dir/build
+.PHONY : wam_msgs_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named wam_srvs_generate_messages_py
+
+# Build rule for target.
+wam_srvs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wam_srvs_generate_messages_py
+.PHONY : wam_srvs_generate_messages_py
+
+# fast build rule for target.
+wam_srvs_generate_messages_py/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/wam_srvs_generate_messages_py.dir/build.make wam_common/wam_srvs/CMakeFiles/wam_srvs_generate_messages_py.dir/build
+.PHONY : wam_srvs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named wam_srvs_gennodejs
+
+# Build rule for target.
+wam_srvs_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wam_srvs_gennodejs
+.PHONY : wam_srvs_gennodejs
+
+# fast build rule for target.
+wam_srvs_gennodejs/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/wam_srvs_gennodejs.dir/build.make wam_common/wam_srvs/CMakeFiles/wam_srvs_gennodejs.dir/build
+.PHONY : wam_srvs_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named wam_srvs_generate_messages_nodejs
+
+# Build rule for target.
+wam_srvs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wam_srvs_generate_messages_nodejs
+.PHONY : wam_srvs_generate_messages_nodejs
+
+# fast build rule for target.
+wam_srvs_generate_messages_nodejs/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/wam_srvs_generate_messages_nodejs.dir/build.make wam_common/wam_srvs/CMakeFiles/wam_srvs_generate_messages_nodejs.dir/build
+.PHONY : wam_srvs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named wam_srvs_genlisp
+
+# Build rule for target.
+wam_srvs_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wam_srvs_genlisp
+.PHONY : wam_srvs_genlisp
+
+# fast build rule for target.
+wam_srvs_genlisp/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/wam_srvs_genlisp.dir/build.make wam_common/wam_srvs/CMakeFiles/wam_srvs_genlisp.dir/build
+.PHONY : wam_srvs_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_Teach
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_Teach: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_Teach
+.PHONY : _wam_srvs_generate_messages_check_deps_Teach
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_Teach/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_Teach.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_Teach.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_Teach/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_JointMoveBlock
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_JointMoveBlock: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_JointMoveBlock
+.PHONY : _wam_srvs_generate_messages_check_deps_JointMoveBlock
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_JointMoveBlock/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_JointMoveBlock.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_JointMoveBlock.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_JointMoveBlock/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_BHandSpreadVel
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_BHandSpreadVel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_BHandSpreadVel
+.PHONY : _wam_srvs_generate_messages_check_deps_BHandSpreadVel
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_BHandSpreadVel/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_BHandSpreadVel.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_BHandSpreadVel.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_BHandSpreadVel/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_BHandGraspVel
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_BHandGraspVel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_BHandGraspVel
+.PHONY : _wam_srvs_generate_messages_check_deps_BHandGraspVel
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_BHandGraspVel/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_BHandGraspVel.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_BHandGraspVel.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_BHandGraspVel/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_Connect
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_Connect: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_Connect
+.PHONY : _wam_srvs_generate_messages_check_deps_Connect
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_Connect/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_Connect.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_Connect.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_Connect/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_PoseMove
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_PoseMove: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_PoseMove
+.PHONY : _wam_srvs_generate_messages_check_deps_PoseMove
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_PoseMove/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_PoseMove.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_PoseMove.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_PoseMove/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_ForceTorqueToolTime
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_ForceTorqueToolTime: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_ForceTorqueToolTime
+.PHONY : _wam_srvs_generate_messages_check_deps_ForceTorqueToolTime
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_ForceTorqueToolTime/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_ForceTorqueToolTime.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_ForceTorqueToolTime.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_ForceTorqueToolTime/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_lisp
+
+# Build rule for target.
+geometry_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_lisp
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make wam_common/wam_srvs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+.PHONY : geometry_msgs_generate_messages_lisp/fast
+
+#=============================================================================
 # Target rules for targets named std_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -292,8 +747,190 @@ std_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f armmove/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make armmove/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make wam_common/wam_srvs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_ForceTorqueTool
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_ForceTorqueTool: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_ForceTorqueTool
+.PHONY : _wam_srvs_generate_messages_check_deps_ForceTorqueTool
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_ForceTorqueTool/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_ForceTorqueTool.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_ForceTorqueTool.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_ForceTorqueTool/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_FollowPath
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_FollowPath: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_FollowPath
+.PHONY : _wam_srvs_generate_messages_check_deps_FollowPath
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_FollowPath/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_FollowPath.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_FollowPath.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_FollowPath/fast
+
+#=============================================================================
+# Target rules for targets named wam_srvs_generate_messages
+
+# Build rule for target.
+wam_srvs_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wam_srvs_generate_messages
+.PHONY : wam_srvs_generate_messages
+
+# fast build rule for target.
+wam_srvs_generate_messages/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/wam_srvs_generate_messages.dir/build.make wam_common/wam_srvs/CMakeFiles/wam_srvs_generate_messages.dir/build
+.PHONY : wam_srvs_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_eus
+
+# Build rule for target.
+geometry_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_eus
+.PHONY : geometry_msgs_generate_messages_eus
+
+# fast build rule for target.
+geometry_msgs_generate_messages_eus/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make wam_common/wam_srvs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+.PHONY : geometry_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_py
+
+# Build rule for target.
+std_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_py
+.PHONY : std_msgs_generate_messages_py
+
+# fast build rule for target.
+std_msgs_generate_messages_py/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/std_msgs_generate_messages_py.dir/build.make wam_common/wam_srvs/CMakeFiles/std_msgs_generate_messages_py.dir/build
+.PHONY : std_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named wam_srvs_generate_messages_eus
+
+# Build rule for target.
+wam_srvs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wam_srvs_generate_messages_eus
+.PHONY : wam_srvs_generate_messages_eus
+
+# fast build rule for target.
+wam_srvs_generate_messages_eus/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/wam_srvs_generate_messages_eus.dir/build.make wam_common/wam_srvs/CMakeFiles/wam_srvs_generate_messages_eus.dir/build
+.PHONY : wam_srvs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_TP_PID
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_TP_PID: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_TP_PID
+.PHONY : _wam_srvs_generate_messages_check_deps_TP_PID
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_TP_PID/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_TP_PID.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_TP_PID.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_TP_PID/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_cpp
+
+# Build rule for target.
+geometry_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_cpp
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make wam_common/wam_srvs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+.PHONY : geometry_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_nodejs
+
+# Build rule for target.
+geometry_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_nodejs
+.PHONY : geometry_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+geometry_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make wam_common/wam_srvs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+.PHONY : geometry_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_OrtnMove
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_OrtnMove: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_OrtnMove
+.PHONY : _wam_srvs_generate_messages_check_deps_OrtnMove
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_OrtnMove/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_OrtnMove.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_OrtnMove.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_OrtnMove/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_JV_PID
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_JV_PID: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_JV_PID
+.PHONY : _wam_srvs_generate_messages_check_deps_JV_PID
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_JV_PID/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_JV_PID.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_JV_PID.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_JV_PID/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_BHandFingerVel
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_BHandFingerVel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_BHandFingerVel
+.PHONY : _wam_srvs_generate_messages_check_deps_BHandFingerVel
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_BHandFingerVel/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_BHandFingerVel.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_BHandFingerVel.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_BHandFingerVel/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_BHandSpreadPos
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_BHandSpreadPos: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_BHandSpreadPos
+.PHONY : _wam_srvs_generate_messages_check_deps_BHandSpreadPos
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_BHandSpreadPos/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_BHandSpreadPos.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_BHandSpreadPos.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_BHandSpreadPos/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_BHandGraspPos
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_BHandGraspPos: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_BHandGraspPos
+.PHONY : _wam_srvs_generate_messages_check_deps_BHandGraspPos
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_BHandGraspPos/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_BHandGraspPos.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_BHandGraspPos.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_BHandGraspPos/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_eus
@@ -305,8 +942,34 @@ std_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	$(MAKE) -f armmove/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make armmove/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make wam_common/wam_srvs/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_CartPosMove
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_CartPosMove: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_CartPosMove
+.PHONY : _wam_srvs_generate_messages_check_deps_CartPosMove
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_CartPosMove/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_CartPosMove.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_CartPosMove.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_CartPosMove/fast
+
+#=============================================================================
+# Target rules for targets named wam_srvs_generate_messages_cpp
+
+# Build rule for target.
+wam_srvs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wam_srvs_generate_messages_cpp
+.PHONY : wam_srvs_generate_messages_cpp
+
+# fast build rule for target.
+wam_srvs_generate_messages_cpp/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/wam_srvs_generate_messages_cpp.dir/build.make wam_common/wam_srvs/CMakeFiles/wam_srvs_generate_messages_cpp.dir/build
+.PHONY : wam_srvs_generate_messages_cpp/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_nodejs
@@ -318,8 +981,281 @@ std_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f armmove/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make armmove/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make wam_common/wam_srvs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_py
+
+# Build rule for target.
+geometry_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_py
+.PHONY : geometry_msgs_generate_messages_py
+
+# fast build rule for target.
+geometry_msgs_generate_messages_py/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make wam_common/wam_srvs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+.PHONY : geometry_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_HapticSphere
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_HapticSphere: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_HapticSphere
+.PHONY : _wam_srvs_generate_messages_check_deps_HapticSphere
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_HapticSphere/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_HapticSphere.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_HapticSphere.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_HapticSphere/fast
+
+#=============================================================================
+# Target rules for targets named wam_srvs_generate_messages_lisp
+
+# Build rule for target.
+wam_srvs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wam_srvs_generate_messages_lisp
+.PHONY : wam_srvs_generate_messages_lisp
+
+# fast build rule for target.
+wam_srvs_generate_messages_lisp/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/wam_srvs_generate_messages_lisp.dir/build.make wam_common/wam_srvs/CMakeFiles/wam_srvs_generate_messages_lisp.dir/build
+.PHONY : wam_srvs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_cpp
+
+# Build rule for target.
+std_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_cpp
+.PHONY : std_msgs_generate_messages_cpp
+
+# fast build rule for target.
+std_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make wam_common/wam_srvs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+.PHONY : std_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_JointMove
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_JointMove: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_JointMove
+.PHONY : _wam_srvs_generate_messages_check_deps_JointMove
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_JointMove/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_JointMove.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_JointMove.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_JointMove/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_OrtnSplitMove
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_OrtnSplitMove: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_OrtnSplitMove
+.PHONY : _wam_srvs_generate_messages_check_deps_OrtnSplitMove
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_OrtnSplitMove/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_OrtnSplitMove.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_OrtnSplitMove.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_OrtnSplitMove/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_Link
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_Link: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_Link
+.PHONY : _wam_srvs_generate_messages_check_deps_Link
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_Link/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_Link.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_Link.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_Link/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_Hold
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_Hold: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_Hold
+.PHONY : _wam_srvs_generate_messages_check_deps_Hold
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_Hold/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_Hold.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_Hold.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_Hold/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_Play
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_Play: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_Play
+.PHONY : _wam_srvs_generate_messages_check_deps_Play
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_Play/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_Play.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_Play.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_Play/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_JP_PID
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_JP_PID: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_JP_PID
+.PHONY : _wam_srvs_generate_messages_check_deps_JP_PID
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_JP_PID/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_JP_PID.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_JP_PID.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_JP_PID/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_ForceTorqueBase
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_ForceTorqueBase: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_ForceTorqueBase
+.PHONY : _wam_srvs_generate_messages_check_deps_ForceTorqueBase
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_ForceTorqueBase/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_ForceTorqueBase.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_ForceTorqueBase.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_ForceTorqueBase/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_CartVel
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_CartVel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_CartVel
+.PHONY : _wam_srvs_generate_messages_check_deps_CartVel
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_CartVel/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_CartVel.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_CartVel.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_CartVel/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_HoldGains
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_HoldGains: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_HoldGains
+.PHONY : _wam_srvs_generate_messages_check_deps_HoldGains
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_HoldGains/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_HoldGains.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_HoldGains.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_HoldGains/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_OrtnGains
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_OrtnGains: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_OrtnGains
+.PHONY : _wam_srvs_generate_messages_check_deps_OrtnGains
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_OrtnGains/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_OrtnGains.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_OrtnGains.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_OrtnGains/fast
+
+#=============================================================================
+# Target rules for targets named wam_srvs_genpy
+
+# Build rule for target.
+wam_srvs_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wam_srvs_genpy
+.PHONY : wam_srvs_genpy
+
+# fast build rule for target.
+wam_srvs_genpy/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/wam_srvs_genpy.dir/build.make wam_common/wam_srvs/CMakeFiles/wam_srvs_genpy.dir/build
+.PHONY : wam_srvs_genpy/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_ForceTorque
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_ForceTorque: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_ForceTorque
+.PHONY : _wam_srvs_generate_messages_check_deps_ForceTorque
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_ForceTorque/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_ForceTorque.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_ForceTorque.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_ForceTorque/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_GravityComp
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_GravityComp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_GravityComp
+.PHONY : _wam_srvs_generate_messages_check_deps_GravityComp
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_GravityComp/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_GravityComp.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_GravityComp.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_GravityComp/fast
+
+#=============================================================================
+# Target rules for targets named wam_srvs_gencpp
+
+# Build rule for target.
+wam_srvs_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wam_srvs_gencpp
+.PHONY : wam_srvs_gencpp
+
+# fast build rule for target.
+wam_srvs_gencpp/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/wam_srvs_gencpp.dir/build.make wam_common/wam_srvs/CMakeFiles/wam_srvs_gencpp.dir/build
+.PHONY : wam_srvs_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_BHandFingerPos
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_BHandFingerPos: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_BHandFingerPos
+.PHONY : _wam_srvs_generate_messages_check_deps_BHandFingerPos
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_BHandFingerPos/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_BHandFingerPos.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_BHandFingerPos.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_BHandFingerPos/fast
+
+#=============================================================================
+# Target rules for targets named _wam_srvs_generate_messages_check_deps_BHandPinchPos
+
+# Build rule for target.
+_wam_srvs_generate_messages_check_deps_BHandPinchPos: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _wam_srvs_generate_messages_check_deps_BHandPinchPos
+.PHONY : _wam_srvs_generate_messages_check_deps_BHandPinchPos
+
+# fast build rule for target.
+_wam_srvs_generate_messages_check_deps_BHandPinchPos/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_BHandPinchPos.dir/build.make wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_BHandPinchPos.dir/build
+.PHONY : _wam_srvs_generate_messages_check_deps_BHandPinchPos/fast
+
+#=============================================================================
+# Target rules for targets named wam_srvs_geneus
+
+# Build rule for target.
+wam_srvs_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wam_srvs_geneus
+.PHONY : wam_srvs_geneus
+
+# fast build rule for target.
+wam_srvs_geneus/fast:
+	$(MAKE) -f wam_common/wam_srvs/CMakeFiles/wam_srvs_geneus.dir/build.make wam_common/wam_srvs/CMakeFiles/wam_srvs_geneus.dir/build
+.PHONY : wam_srvs_geneus/fast
 
 #=============================================================================
 # Target rules for targets named roscpp_generate_messages_lisp
@@ -359,19 +1295,6 @@ roscpp_generate_messages_eus: cmake_check_build_system
 roscpp_generate_messages_eus/fast:
 	$(MAKE) -f armmove/CMakeFiles/roscpp_generate_messages_eus.dir/build.make armmove/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_cpp
-
-# Build rule for target.
-std_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_cpp
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f armmove/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make armmove/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
 
 #=============================================================================
 # Target rules for targets named roscpp_generate_messages_cpp
@@ -452,19 +1375,6 @@ rosgraph_msgs_generate_messages_lisp/fast:
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named std_msgs_generate_messages_py
-
-# Build rule for target.
-std_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_py
-.PHONY : std_msgs_generate_messages_py
-
-# fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	$(MAKE) -f armmove/CMakeFiles/std_msgs_generate_messages_py.dir/build.make armmove/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
-
-#=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_py
 
 # Build rule for target.
@@ -499,20 +1409,90 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... _catkin_empty_exported_target"
+	@echo "... _wam_msgs_generate_messages_check_deps_RTJointPos"
+	@echo "... wam_msgs_generate_messages"
+	@echo "... wam_msgs_genlisp"
+	@echo "... wam_msgs_generate_messages_eus"
+	@echo "... _wam_msgs_generate_messages_check_deps_RTToolInfo"
+	@echo "... wam_msgs_generate_messages_py"
+	@echo "... _wam_msgs_generate_messages_check_deps_MatrixMN"
+	@echo "... _wam_msgs_generate_messages_check_deps_RTCartVel"
+	@echo "... _wam_msgs_generate_messages_check_deps_RTCartPos"
+	@echo "... wam_msgs_gencpp"
+	@echo "... wam_msgs_geneus"
+	@echo "... _wam_msgs_generate_messages_check_deps_RTOrtnVel"
+	@echo "... _wam_msgs_generate_messages_check_deps_RTPose"
+	@echo "... wam_msgs_genpy"
+	@echo "... _wam_msgs_generate_messages_check_deps_RTJointVel"
+	@echo "... _wam_msgs_generate_messages_check_deps_RTOrtnPos"
+	@echo "... _wam_msgs_generate_messages_check_deps_RTVelocity"
+	@echo "... wam_msgs_generate_messages_lisp"
+	@echo "... _wam_msgs_generate_messages_check_deps_RTOrtn"
+	@echo "... wam_msgs_generate_messages_cpp"
+	@echo "... wam_msgs_generate_messages_nodejs"
+	@echo "... wam_msgs_gennodejs"
+	@echo "... wam_srvs_generate_messages_py"
+	@echo "... wam_srvs_gennodejs"
+	@echo "... wam_srvs_generate_messages_nodejs"
+	@echo "... wam_srvs_genlisp"
+	@echo "... _wam_srvs_generate_messages_check_deps_Teach"
+	@echo "... _wam_srvs_generate_messages_check_deps_JointMoveBlock"
+	@echo "... _wam_srvs_generate_messages_check_deps_BHandSpreadVel"
+	@echo "... _wam_srvs_generate_messages_check_deps_BHandGraspVel"
+	@echo "... _wam_srvs_generate_messages_check_deps_Connect"
+	@echo "... _wam_srvs_generate_messages_check_deps_PoseMove"
+	@echo "... _wam_srvs_generate_messages_check_deps_ForceTorqueToolTime"
+	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_lisp"
+	@echo "... _wam_srvs_generate_messages_check_deps_ForceTorqueTool"
+	@echo "... _wam_srvs_generate_messages_check_deps_FollowPath"
+	@echo "... wam_srvs_generate_messages"
+	@echo "... geometry_msgs_generate_messages_eus"
+	@echo "... std_msgs_generate_messages_py"
+	@echo "... wam_srvs_generate_messages_eus"
+	@echo "... _wam_srvs_generate_messages_check_deps_TP_PID"
+	@echo "... geometry_msgs_generate_messages_cpp"
+	@echo "... geometry_msgs_generate_messages_nodejs"
+	@echo "... _wam_srvs_generate_messages_check_deps_OrtnMove"
+	@echo "... _wam_srvs_generate_messages_check_deps_JV_PID"
+	@echo "... _wam_srvs_generate_messages_check_deps_BHandFingerVel"
+	@echo "... _wam_srvs_generate_messages_check_deps_BHandSpreadPos"
+	@echo "... _wam_srvs_generate_messages_check_deps_BHandGraspPos"
 	@echo "... std_msgs_generate_messages_eus"
+	@echo "... _wam_srvs_generate_messages_check_deps_CartPosMove"
+	@echo "... wam_srvs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_nodejs"
+	@echo "... geometry_msgs_generate_messages_py"
+	@echo "... _wam_srvs_generate_messages_check_deps_HapticSphere"
+	@echo "... wam_srvs_generate_messages_lisp"
+	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... _wam_srvs_generate_messages_check_deps_JointMove"
+	@echo "... _wam_srvs_generate_messages_check_deps_OrtnSplitMove"
+	@echo "... _wam_srvs_generate_messages_check_deps_Link"
+	@echo "... _wam_srvs_generate_messages_check_deps_Hold"
+	@echo "... _wam_srvs_generate_messages_check_deps_Play"
+	@echo "... _wam_srvs_generate_messages_check_deps_JP_PID"
+	@echo "... _wam_srvs_generate_messages_check_deps_ForceTorqueBase"
+	@echo "... _wam_srvs_generate_messages_check_deps_CartVel"
+	@echo "... _wam_srvs_generate_messages_check_deps_HoldGains"
+	@echo "... _wam_srvs_generate_messages_check_deps_OrtnGains"
+	@echo "... wam_srvs_genpy"
+	@echo "... _wam_srvs_generate_messages_check_deps_ForceTorque"
+	@echo "... _wam_srvs_generate_messages_check_deps_GravityComp"
+	@echo "... wam_srvs_gencpp"
+	@echo "... _wam_srvs_generate_messages_check_deps_BHandFingerPos"
+	@echo "... _wam_srvs_generate_messages_check_deps_BHandPinchPos"
+	@echo "... wam_srvs_geneus"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_eus"
-	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
-	@echo "... std_msgs_generate_messages_py"
 	@echo "... rosgraph_msgs_generate_messages_py"
 .PHONY : help
 

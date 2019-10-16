@@ -462,60 +462,60 @@ print "BHAND initialised......"
 ##############################################################
 #Main program implementation to check the movement of the wam
 ##############################################################
-user = raw_input("press enter to initialise BHAND")
-if user == "":
-   p.initialize_bhand()
-else:
-   print "you haven't pressed enter"
-#Go to specific position for the experimental setup
-p.change_position()
-print "Moving to the new position......"
-rospy.sleep(5)
+# user = raw_input("press enter to initialise BHAND")
+# if user == "":
+#    p.initialize_bhand()
+# else:
+#    print "you haven't pressed enter"
+# #Go to specific position for the experimental setup
+# p.change_position()
+# print "Moving to the new position......"
+# rospy.sleep(5)
 
 
 
-#JOINT LOCK
-user = raw_input("press enter to lock joint position")
-if user == "":
-    p.lock_joint_position(True)
-else:
-    print "you haven't pressed enter"
-#p.lock_joint_position(True)
-rospy.sleep(5)
-print "Joints have been locked......"
+# #JOINT LOCK
+# user = raw_input("press enter to lock joint position")
+# if user == "":
+#     p.lock_joint_position(True)
+# else:
+#     print "you haven't pressed enter"
+# #p.lock_joint_position(True)
+# rospy.sleep(5)
+# print "Joints have been locked......"
 
 
-#SPREAD OPEN
-user = raw_input("press enter to open spread")
-if user == "":
-    p.open_spread()
-else:
-    print "you haven't pressed enter"
-#p.lock_joint_position(True)
-rospy.sleep(5)
-print "Spread open......"
+# #SPREAD OPEN
+# user = raw_input("press enter to open spread")
+# if user == "":
+#     p.open_spread()
+# else:
+#     print "you haven't pressed enter"
+# #p.lock_joint_position(True)
+# rospy.sleep(5)
+# print "Spread open......"
 
 
-#GRASP CLOSE
-user = raw_input("press enter to close grasp")
-if user == "":
-    p.close_grasp()
-else:
-    print "you haven't pressed enter"
-#p.lock_joint_position(True)
-rospy.sleep(5)
-print "Grasp closed......"
+# #GRASP CLOSE
+# user = raw_input("press enter to close grasp")
+# if user == "":
+#     p.close_grasp()
+# else:
+#     print "you haven't pressed enter"
+# #p.lock_joint_position(True)
+# rospy.sleep(5)
+# print "Grasp closed......"
 
 
-#GRASP OPEN
-user = raw_input("press enter to open grasp")
-if user == "":
-    p.open_grasp()
-else:
-    print "you haven't pressed enter"
-#p.lock_joint_position(True)
-rospy.sleep(5)
-print "Grasp opened......"
+# #GRASP OPEN
+# user = raw_input("press enter to open grasp")
+# if user == "":
+#     p.open_grasp()
+# else:
+#     print "you haven't pressed enter"
+# #p.lock_joint_position(True)
+# rospy.sleep(5)
+# print "Grasp opened......"
 
 
 ##############################################################

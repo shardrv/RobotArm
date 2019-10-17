@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dhruv/RobotArm/wam_dir/build
 include wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_BHandSpreadVel.dir/progress.make
 
 wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_BHandSpreadVel:
-	cd /home/dhruv/RobotArm/wam_dir/build/wam_common/wam_srvs && ../../catkin_generated/env_cached.sh /home/dhruv/anaconda2/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py wam_srvs /home/dhruv/RobotArm/wam_dir/src/wam_common/wam_srvs/srv/BHandSpreadVel.srv 
+	cd /home/dhruv/RobotArm/wam_dir/build/wam_common/wam_srvs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py wam_srvs /home/dhruv/RobotArm/wam_dir/src/wam_common/wam_srvs/srv/BHandSpreadVel.srv 
 
 _wam_srvs_generate_messages_check_deps_BHandSpreadVel: wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_BHandSpreadVel
 _wam_srvs_generate_messages_check_deps_BHandSpreadVel: wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_BHandSpreadVel.dir/build.make

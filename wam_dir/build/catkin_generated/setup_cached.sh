@@ -7,5 +7,7 @@
 # new environment variables
 
 # modified environment variables
+export CMAKE_PREFIX_PATH="/home/dhruv/RobotArm/wam_dir/devel:$CMAKE_PREFIX_PATH"
 export PWD="/home/dhruv/RobotArm/wam_dir/build"
-export PYTHONPATH="/home/dhruv/RobotArm/wam_dir/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/dhruv/RobotArm/wam_dir/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/dhruv/RobotArm/wam_dir/src:$ROS_PACKAGE_PATH"

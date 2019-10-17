@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dhruv/RobotArm/wam_dir/build
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/home/dhruv/anaconda2/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/dhruv/RobotArm/wam_dir/build/test_results
+	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/dhruv/RobotArm/wam_dir/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make

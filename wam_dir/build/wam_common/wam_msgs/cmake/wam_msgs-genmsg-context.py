@@ -6,6 +6,6 @@ pkg_name = "wam_msgs"
 dependencies_str = ""
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"
 dep_include_paths_str = "wam_msgs;/home/dhruv/RobotArm/wam_dir/src/wam_common/wam_msgs/msg"
-PYTHON_EXECUTABLE = "/home/dhruv/anaconda2/bin/python"
+PYTHON_EXECUTABLE = "/usr/bin/python"
 package_has_static_sources = '' == 'TRUE'
 genmsg_check_deps_script = "/opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py"

@@ -69,7 +69,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/home/dhruv/anaconda2/bin/python" -m compileall "/home/dhruv/RobotArm/wam_dir/devel/lib/python2.7/dist-packages/wam_msgs")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/dhruv/RobotArm/wam_dir/devel/lib/python2.7/dist-packages/wam_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")

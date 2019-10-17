@@ -227,7 +227,7 @@ LSB_RELEASE_EXECUTABLE:FILEPATH=/usr/bin/lsb_release
 NOSETESTS:FILEPATH=/usr/bin/nosetests-2.7
 
 //Path to a program.
-PYTHON_EXECUTABLE:FILEPATH=/home/dhruv/anaconda2/bin/python
+PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
 
 //Specify specific Python version to use ('major.minor' or 'major')
 PYTHON_VERSION:STRING=
@@ -373,9 +373,6 @@ std_msgs_DIR:PATH=/opt/ros/kinetic/share/std_msgs/cmake
 
 //Value Computed by CMake
 wam_common_BINARY_DIR:STATIC=/home/dhruv/RobotArm/wam_dir/build/wam_common/wam_common
-
-//The directory containing a CMake configuration file for wam_common.
-wam_common_DIR:PATH=wam_common_DIR-NOTFOUND
 
 //Value Computed by CMake
 wam_common_SOURCE_DIR:STATIC=/home/dhruv/RobotArm/wam_dir/src/wam_common/wam_common
@@ -543,7 +540,7 @@ CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/home/dhruv/anaconda2/bin/python][v2.7.16()]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.12()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 GMOCK_FROM_SOURCE_FOUND:INTERNAL=TRUE

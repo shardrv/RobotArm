@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dhruv/RobotArm/wam_dir/build
 include wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_JointMove.dir/progress.make
 
 wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_JointMove:
-	cd /home/dhruv/RobotArm/wam_dir/build/wam_common/wam_srvs && ../../catkin_generated/env_cached.sh /home/dhruv/anaconda2/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py wam_srvs /home/dhruv/RobotArm/wam_dir/src/wam_common/wam_srvs/srv/JointMove.srv 
+	cd /home/dhruv/RobotArm/wam_dir/build/wam_common/wam_srvs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py wam_srvs /home/dhruv/RobotArm/wam_dir/src/wam_common/wam_srvs/srv/JointMove.srv 
 
 _wam_srvs_generate_messages_check_deps_JointMove: wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_JointMove
 _wam_srvs_generate_messages_check_deps_JointMove: wam_common/wam_srvs/CMakeFiles/_wam_srvs_generate_messages_check_deps_JointMove.dir/build.make

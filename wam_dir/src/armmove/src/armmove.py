@@ -36,11 +36,12 @@ cond2 = 0
 
 #Set target value of the experiment
 target = [0.0, 0.0, 0.0, 1.57, 0.0, 0.0, 0.0]
-waypoints_filename1 = "/home/froglake/control_workspace/src/weight_control/data1.txt"
-waypoints_filename2 = "/home/froglake/control_workspace/src/weight_control/data2.txt"
-waypoints_filename3 = "/home/froglake/control_workspace/src/weight_control/data3.txt"
+waypoints_filename1 = "/home/Documents/waypoints/f1.txt"
+waypoints_filename2 = "/home/Documents/waypoints/f2.txt"
+waypoints_filename3 = "/home/Documents/waypoints/f3.txt"
 
-print "Program running..."
+#print "Program running..."
+print "Program Run"
 
 def write_to_file(path, content):
 	file = open(path, "w+")
@@ -119,10 +120,6 @@ class Robot():
 		self.joint_state_sub = rospy.Subscriber(self.ns + "/wam/joint_states",  JointState, self.joint_state_callback, queue_size = 3)
 		self.jacobian_sub = rospy.Subscriber(self.ns + "/wam/jacobian",  MatrixMN, self.jacobian_callback, queue_size = 3)
 		rospy.spin()
-
-
-
-		#camera_sub = rospy.Subscriber("/usb_cam/image_raw/compressed",  CompressedImage, self.camera_callback, queue_size = 3)
 		pose_sub = rospy.Subscriber(self.ns + "/wam/pose",  PoseStamped, self.pose_callback, queue_size = 3)
 		self.pub_ = rospy.Publisher('/task_coordinates', String, queue_size = 1)
 		# finish initialization
@@ -375,13 +372,13 @@ class Robot():
 #############################################################################################################
 # CALLBACK METHODS
 #############################################################################################################
-	def camera_callback(self, data):
-		self.pixmap = self.convert_compressed_img(data)
-		self.paint_pixmap(self.pixmap)
-		if self.current_widget == "menu":
-			self._view.setPixmap(self.pixmap)
-		else:
-			print "Image callback error -- invalid current_widget"
+	# def camera_callback(self, data):
+	# 	self.pixmap = self.convert_compressed_img(data)
+	# 	self.paint_pixmap(self.pixmap)
+	# 	if self.current_widget == "menu":
+	# 		self._view.setPixmap(self.pixmap)
+	# 	else:
+	# 		print "Image callback error -- invalid current_widget"
 
 	def pose_callback(self, data):
 		self.previous_pose = self.current_pose
@@ -430,7 +427,7 @@ class Robot():
 p = Robot()
 print p.dof
 
-#p.__init__()
+p.__init__()
 
 #rospy.signal_shutdown(reason)
 
@@ -447,15 +444,25 @@ rospy.sleep(5)
 print "WAM has been initialised..........."
 
 
-#INITIALIZE BHAND
-user = raw_input("press enter to initialise BHAND")
-if user == "":
-    p.initialize_bhand()
-else:
-    print "you haven't pressed enter"
-#p.initialize_bhand()
-rospy.sleep(5)
-print "BHAND initialised......"
+# #INITIALIZE BHAND
+# user = raw_input("press enter to initialise BHAND")
+# if user == "":
+#     p.initialize_bhand()
+# else:
+#     print "you haven't pressed enter"
+# #p.initialize_bhand()
+# rospy.sleep(5)
+# print "BHAND initialised......"
+
+
+# #WAM MOVE
+# user = raw_input("press enter to move WAM to position 0,0,0,0,0,0,0")
+# if user == "":
+#     p.move_joints(target)
+# else:
+#     print "you haven't pressed enter"
+# rospy.sleep(5)
+# print "WAM is at the position ......."
 
 
 
@@ -519,7 +526,8 @@ print "BHAND initialised......"
 
 
 ##############################################################
-#OTHER TASKS - SEE AFTER
+
+
 #rospy.sleep(5)
 #Move to specific position11
 #print "Move to target position 0.........." 

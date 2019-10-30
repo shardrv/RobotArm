@@ -36,9 +36,9 @@ cond2 = 0
 
 #Set target value of the experiment
 target = [0.0, 0.0, 0.0, 1.57, 0.0, 0.0, 0.0]
-waypoints_filename1 = "/home/Documents/waypoints/f1.txt"
-waypoints_filename2 = "/home/Documents/waypoints/f2.txt"
-waypoints_filename3 = "/home/Documents/waypoints/f3.txt"
+waypoints_filename1 = "/home/dhruv/Documents/waypoints/f1.txt"
+waypoints_filename2 = "/home/dhruv/Documents/waypoints/f2.txt"
+waypoints_filename3 = "/home/dhruv/Documents/waypoints/f3.txt"
 
 #print "Program running..."
 print "Program Run"
@@ -119,7 +119,7 @@ class Robot():
 #		if (cond1 == 0 and cond2 == 0): 
 		self.joint_state_sub = rospy.Subscriber(self.ns + "/wam/joint_states",  JointState, self.joint_state_callback, queue_size = 3)
 		self.jacobian_sub = rospy.Subscriber(self.ns + "/wam/jacobian",  MatrixMN, self.jacobian_callback, queue_size = 3)
-		rospy.spin()
+		#rospy.spin()
 		pose_sub = rospy.Subscriber(self.ns + "/wam/pose",  PoseStamped, self.pose_callback, queue_size = 3)
 		self.pub_ = rospy.Publisher('/task_coordinates', String, queue_size = 1)
 		# finish initialization
@@ -429,6 +429,14 @@ print p.dof
 
 p.__init__()
 
+print"WAM init has run..."
+
+# p.initialize_wam_client()
+
+# print"Init WAM client..."
+
+# p.initialize_wam()
+
 #rospy.signal_shutdown(reason)
 
 #Initialize the robot arm
@@ -456,13 +464,13 @@ print "WAM has been initialised..........."
 
 
 # #WAM MOVE
-# user = raw_input("press enter to move WAM to position 0,0,0,0,0,0,0")
-# if user == "":
-#     p.move_joints(target)
-# else:
-#     print "you haven't pressed enter"
-# rospy.sleep(5)
-# print "WAM is at the position ......."
+user = raw_input("press enter to move WAM to position 0,0,0,0,0,0,0")
+if user == "":
+    p.move_joints(target)
+else:
+    print "you haven't pressed enter"
+rospy.sleep(5)
+print "WAM is at the position ......."
 
 
 

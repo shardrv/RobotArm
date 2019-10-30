@@ -163,7 +163,7 @@ class Robot():
 
 	def initialize_wam(self):
 		if self.dof == 7:
-			pos = [0.0, 0.0, 0.0, 1.57, 0.0, 0.0, 0.0]
+			pos = [0.0, -2.0, 0.0, 3.0, 0.0, 0.0, 0.0]
 		elif self.dof == 4:
 			pos = [0.0, 0.0, 0.0, 1.57]
 		else:
@@ -197,6 +197,21 @@ class Robot():
 		file.write(content)
 		file.close()
 
+	def calculate_next_target(self,inp):
+		j = 0
+		newpos= [0,0,0,0,0,0,0]
+		# for i in range(0,6):
+		# 	newpos[j] = inp[i]+0.2
+		# 	j=j+1
+		newpos[1] = inp[1]+0.2
+		newpos[3] = inp[3]-0.2
+		print newpos
+		return newpos
+
+	def move_step(self,var):
+		mov = calculate_next_target(var)
+		print mov
+		#command_wam(mov)
 
 #############################################################################################################
 # SERVICE CALL METHODS 
@@ -445,15 +460,6 @@ p.__init__()
 
 print"WAM init has run..."
 
-# p.initialize_wam_client()
-
-# print"Init WAM client..."
-
-# p.initialize_wam()
-
-#rospy.signal_shutdown(reason)
-
-#Initialize the robot arm
 
 #INITIALIZE WAM
 user = raw_input("press enter to initialise WAM")
@@ -478,11 +484,13 @@ print "WAM has been initialised..........."
 
 
 # #WAM MOVE
-
-
 user = raw_input("press enter to move WAM to position 0,0,0,0,0,0,0")
 if user == "":
-    p.command_wam(tar1)
+    #p.command_wam(tar1)
+	newposx = p.calculate_next_target(tar1)
+	p.command_wam(newposx)
+	newposy = p.calculate_next_target(newposx)
+	p.command_wam(newposy)
 else:
     print "you haven't pressed enter"
 rospy.sleep(5)

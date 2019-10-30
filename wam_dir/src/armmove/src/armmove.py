@@ -36,6 +36,7 @@ cond2 = 0
 
 #Set target value of the experiment
 target = [0.0, 0.0, 0.0, 0.0 , 0.0, 0.0, 0.0]
+finaldest = [0.0, -1.34, 0.0, 2.81, 0.0, 0.0, 0.0]		
 tar1 = [0.0, -2.0, 0.0, 3.0, 0.0, 0.0, 0.0]
 tar2 = [0.0, -1.77, 0.0, 2.96, 0.0, 0.0, 0.0]
 tar3 = [0.0, -1.34, 0.0, 2.81, 0.0, 0.0, 0.0]
@@ -199,12 +200,17 @@ class Robot():
 
 	def calculate_next_target(self,inp):
 		j = 0
-		newpos= [0,0,0,0,0,0,0]
+		newpos= inp
 		# for i in range(0,6):
 		# 	newpos[j] = inp[i]+0.2
 		# 	j=j+1
-		newpos[1] = inp[1]+0.2
-		newpos[3] = inp[3]-0.2
+		# newpos[1] = inp[1]+0.2
+		# newpos[3] = inp[3]-0.2
+
+		delta = ((finaldest - inp)*0.2)/2
+		newpos[1] = inp[1] + delta
+		newpos[3] = inp[3] + delta
+
 		print newpos
 		return newpos
 
@@ -488,9 +494,10 @@ user = raw_input("press enter to move WAM to position 0,0,0,0,0,0,0")
 if user == "":
     #p.command_wam(tar1)
 	newposx = p.calculate_next_target(tar1)
-	p.command_wam(newposx)
-	newposy = p.calculate_next_target(newposx)
-	p.command_wam(newposy)
+	print newposx
+	#p.command_wam(newposx)
+	# newposy = p.calculate_next_target(newposx)
+	# p.command_wam(newposy)
 else:
     print "you haven't pressed enter"
 rospy.sleep(5)

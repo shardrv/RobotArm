@@ -36,6 +36,10 @@ cond2 = 0
 
 #Set target value of the experiment
 target = [0.0, 0.0, 0.0, 0.0 , 0.0, 0.0, 0.0]
+tar1 = [0.0, -2.0, 0.0, 3.0, 0.0, 0.0, 0.0]
+tar2 = [0.0, -1.77, 0.0, 2.96, 0.0, 0.0, 0.0]
+tar3 = [0.0, -1.34, 0.0, 2.81, 0.0, 0.0, 0.0]
+
 waypoints_filename1 = "/home/dhruv/Documents/waypoints/f1.txt"
 waypoints_filename2 = "/home/dhruv/Documents/waypoints/f2.txt"
 waypoints_filename3 = "/home/dhruv/Documents/waypoints/f3.txt"
@@ -167,9 +171,9 @@ class Robot():
 			return False
 		return self.move_joints(pos)
 
-	def command_wam(self):
+	def command_wam(self,dest):
 		if self.dof == 7:
-			pos = target
+			pos = dest
 		elif self.dof == 4:
 			pos = [0.0, 0.0, 0.0, 1.57]
 		else:
@@ -474,9 +478,11 @@ print "WAM has been initialised..........."
 
 
 # #WAM MOVE
+
+
 user = raw_input("press enter to move WAM to position 0,0,0,0,0,0,0")
 if user == "":
-    p.command_wam()
+    p.command_wam(tar1)
 else:
     print "you haven't pressed enter"
 rospy.sleep(5)

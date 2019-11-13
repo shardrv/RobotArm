@@ -477,11 +477,13 @@ if user == "":
 	p.command_wam(tar1)
 	#newposx = p.calculate_next_target(tar1)
 	iteration = tar1
+
+	r = rospy.Rate(5) # 5hz 0.2 seconds
 	for j in range(0,10):
 		newiteration = p.calculate_next_target(iteration)
 		p.command_wam(newiteration)
-		rospy.sleep(3)
 		iteration = newiteration
+		r.sleep()
 	#print newposx
 	#p.command_wam(newposx)
 	# newposy = p.calculate_next_target(newposx)

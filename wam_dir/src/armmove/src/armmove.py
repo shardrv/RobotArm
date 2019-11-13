@@ -33,6 +33,8 @@ TEXT_HEIGHT = 150
 cond1 = 0
 cond2 = 0
 
+targetsteps = 10
+targettime = 2
 
 #Set target value of the experiment
 target = [0.0, 0.0, 0.0, 0.0 , 0.0, 0.0, 0.0]
@@ -199,17 +201,25 @@ class Robot():
 		file.close()
 
 	def calculate_next_target(self,inp):
-		j = 0
-		newpos= inp
-		# for i in range(0,6):
-		# 	newpos[j] = inp[i]+0.2
-		# 	j=j+1
-		# newpos[1] = inp[1]+0.2
-		# newpos[3] = inp[3]-0.2
+		newpos = [0.0, 0.0, 0.0, 0.0 , 0.0, 0.0, 0.0]
+		t0 = 0
+		t = 0.2
 
-		delta = ((finaldest - inp)*0.2)/2
-		newpos[1] = inp[1] + delta
-		newpos[3] = inp[3] + delta
+		# j = 0
+		# newpos= inp
+		# # for i in range(0,6):
+		# # 	newpos[j] = inp[i]+0.2
+		# # 	j=j+1
+		# # newpos[1] = inp[1]+0.2
+		# # newpos[3] = inp[3]-0.2
+
+		# delta = ((finaldest - inp)*0.2)/2
+		# newpos[1] = inp[1] + delta
+		# newpos[3] = inp[3] + delta
+
+		for i in range(0,6):
+			newpos[i] = inp[i] + (finaldest[i] - tar1[i]) * (t - t0) / targettime
+			i=i+1
 
 		print newpos
 		return newpos
@@ -285,36 +295,6 @@ class Robot():
 		except rospy.ServiceException, e:
 			print "Service call hold_joint_pos failed: %s" %e
 			return False
-
-######################################################################################################################################################
-######################################################## TEACH WAYPOINTS ##########################################################################
-###############################Teach the robot to move write in python teach waypoints in joint space##############################################
-######################################################################################################################################################
-#	def teach_waypoints_joint(self):
-#		lock_joint_position(False);
-
-#		capturing = True;
-#		user = raw_input("Move arm to desired waypoint then press 'c' to save position\nPress 'd' to finish and save to file\n")
-
-#		while (capturing = True): 		
-#			while (!std::getline(std::cin, input)) 
-#			 	continue 
-#			 	 wait for users input	
-#			if user == 'c' or user == 'C':    
-#				for i in range(0, dof):
-#				 	print ss, previous_joint_state.position[i], " "
-				
-#				write_to_file(waypoints_filename, ss.str() + "\n")
-#				print "\tWriting [", ss.str(), "] to ", waypoints_filename, ".txt\n"
-
-#			elif user == 'd' or user == 'D': 
-#				capturing = False			 
-#			else:  
-#				print "Press 'c' to capture waypoint and 'd' when done\n"			
-#		return True
-
-######################################################################################################################################################
-######################################################################################################################################################
 
 
 #############################################################################################################
@@ -470,7 +450,8 @@ print"WAM init has run..."
 #INITIALIZE WAM
 user = raw_input("press enter to initialise WAM")
 if user == "":
-    p.initialize_wam()
+    #p.initialize_wam()
+	print "Pressed enter"
 else:
     print "you haven't pressed enter"
 #p.initialize_wam()
@@ -492,9 +473,16 @@ print "WAM has been initialised..........."
 # #WAM MOVE
 user = raw_input("press enter to move WAM to position 0,0,0,0,0,0,0")
 if user == "":
-    #p.command_wam(tar1)
-	newposx = p.calculate_next_target(tar1)
-	print newposx
+	
+	p.command_wam(tar1)
+	#newposx = p.calculate_next_target(tar1)
+	iteration = tar1
+	for j in range(0,10):
+		newiteration = p.calculate_next_target(iteration)
+		p.command_wam(newiteration)
+		rospy.sleep(3)
+		iteration = newiteration
+	#print newposx
 	#p.command_wam(newposx)
 	# newposy = p.calculate_next_target(newposx)
 	# p.command_wam(newposy)

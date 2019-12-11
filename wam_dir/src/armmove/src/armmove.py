@@ -34,7 +34,7 @@ cond1 = 0
 cond2 = 0
 
 targetsteps = 10
-targettime = 2
+targettime = 10
 
 #Set target value of the experiment
 target = [0.0, 0.0, 0.0, 0.0 , 0.0, 0.0, 0.0]
@@ -200,10 +200,13 @@ class Robot():
 		file.write(content)
 		file.close()
 
+#############################################################################################################
+# CALCULATION FUNCTION
+#############################################################################################################
 	def calculate_next_target(self,inp):
 		newpos = [0.0, 0.0, 0.0, 0.0 , 0.0, 0.0, 0.0]
 		t0 = 0
-		t = 0.2
+		t = 1
 
 		# j = 0
 		# newpos= inp
@@ -455,7 +458,7 @@ if user == "":
 else:
     print "you haven't pressed enter"
 #p.initialize_wam()
-rospy.sleep(5)
+rospy.sleep(2)
 print "WAM has been initialised..........."
 
 
@@ -477,20 +480,26 @@ if user == "":
 	p.command_wam(tar1)
 	#newposx = p.calculate_next_target(tar1)
 	iteration = tar1
-
-	r = rospy.Rate(5) # 5hz 0.2 seconds
+	
+	#r = rospy.Rate(10) # 5hz 0.2 seconds
+	#r.Time.now()
+	now = rospy.Time.now() 
 	for j in range(0,10):
 		newiteration = p.calculate_next_target(iteration)
 		p.command_wam(newiteration)
 		iteration = newiteration
-		r.sleep()
+		#r.sleep()
+		#print r.time.now()
+		now = rospy.Time.now() 
+		print now.secs
+
 	#print newposx
 	#p.command_wam(newposx)
 	# newposy = p.calculate_next_target(newposx)
 	# p.command_wam(newposy)
 else:
     print "you haven't pressed enter"
-rospy.sleep(5)
+#rospy.sleep(5)
 print "WAM is at the position ......."
 
 

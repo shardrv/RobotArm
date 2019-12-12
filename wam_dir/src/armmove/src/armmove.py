@@ -129,6 +129,9 @@ class Robot():
 		#rospy.spin()
 		pose_sub = rospy.Subscriber(self.ns + "/wam/pose",  PoseStamped, self.pose_callback, queue_size = 3)
 		self.pub_ = rospy.Publisher('/task_coordinates', String, queue_size = 1)
+		#testsub = rospy.Subscriber(self.ns + "chatter", String, callback)
+
+
 		# finish initialization
 		#self.initialize_widgets()
 		# if not self.initialize_wam():
@@ -427,6 +430,10 @@ class Robot():
 		write_to_file(waypoints_filename1, str(self.jacobian_data))
 #		c2 = c2+1
 		self.jacobian_sub.unregister()
+
+
+	#def testsub(self, data):
+		
 
 
 

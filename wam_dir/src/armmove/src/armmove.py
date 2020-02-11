@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#!/usr/bin/python
 
 #include "wam_srvs/Hold.h"
 
@@ -27,6 +28,18 @@ from python_qt_binding.QtCore import *
 from python_qt_binding.QtGui import *
 from python_qt_binding.QtWidgets import *
 
+
+#DEFINITIONS FOR THE IMPORT TRAJ
+import time
+from decimal import Decimal
+import numpy as np
+from scipy.integrate import odeint, solve_ivp
+import matplotlib.pyplot as plt
+from scipy.interpolate import interp1d
+
+
+
+
 TEXT_WIDTH = 420
 TEXT_HEIGHT = 150
 
@@ -46,6 +59,22 @@ tar3 = [0.0, -1.34, 0.0, 2.81, 0.0, 0.0, 0.0]
 waypoints_filename1 = "/home/dhruv/Documents/waypoints/f1.txt"
 waypoints_filename2 = "/home/dhruv/Documents/waypoints/f2.txt"
 waypoints_filename3 = "/home/dhruv/Documents/waypoints/f3.txt"
+
+
+#IMPORT THE TRAJECTORY POINTS FROM TEXT FILE 
+
+
+xdot_list = []
+
+with open('/home/dhruv/gitwkspc/RobotArm/xdot.txt', 'r') as filehandle:
+    filecontents = filehandle.readlines()
+
+    for line in filecontents:
+        current_place = line[:-1]
+        xdot_list.append([float(v) for v in line.split('\t')])
+
+xdot = np.array(xdot_list, dtype=np.float32) 
+print(xdot)
 
 #print "Program running..."
 print "Program Run"

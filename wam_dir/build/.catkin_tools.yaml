@@ -1,0 +1,6 @@
+devel_space: /home/dhruv/gitwkspc/RobotArm/wam_dir/devel
+install: false
+install_space: /home/dhruv/gitwkspc/RobotArm/wam_dir/install
+profile: default
+source_space: /home/dhruv/gitwkspc/RobotArm/wam_dir/src
+workspace: /home/dhruv/gitwkspc/RobotArm/wam_dir

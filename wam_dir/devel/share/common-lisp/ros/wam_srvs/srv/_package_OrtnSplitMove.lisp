@@ -1,8 +1,1 @@
-(cl:in-package wam_srvs-srv)
-(cl:export '(ORIENTATION-VAL
-          ORIENTATION
-          KP_GAIN-VAL
-          KP_GAIN
-          KD_GAIN-VAL
-          KD_GAIN
-))
+/home/dhruv/gitwkspc/RobotArm/wam_dir/devel/.private/wam_srvs/share/common-lisp/ros/wam_srvs/srv/_package_OrtnSplitMove.lisp

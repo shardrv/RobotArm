@@ -1,6 +1,1 @@
-(cl:in-package wam_msgs-msg)
-(cl:export '(POSITION-VAL
-          POSITION
-          RATE_LIMITS-VAL
-          RATE_LIMITS
-))
+/home/dhruv/gitwkspc/RobotArm/wam_dir/devel/.private/wam_msgs/share/common-lisp/ros/wam_msgs/msg/_package_RTCartPos.lisp

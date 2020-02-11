@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/dhruv/gitwkspc/RobotArm/wam_dir/devel/.private/wam_msgs/setup.sh

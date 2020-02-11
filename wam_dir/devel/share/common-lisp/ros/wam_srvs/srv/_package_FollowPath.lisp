@@ -1,8 +1,1 @@
-(cl:in-package wam_srvs-srv)
-(cl:export '(POSITION-VAL
-          POSITION
-          NORMAL-VAL
-          NORMAL
-          SIZE-VAL
-          SIZE
-))
+/home/dhruv/gitwkspc/RobotArm/wam_dir/devel/.private/wam_srvs/share/common-lisp/ros/wam_srvs/srv/_package_FollowPath.lisp

@@ -1,0 +1,8 @@
+prefix=/home/dhruv/gitwkspc/RobotArm/wam_dir/install
+
+Name: wam_srvs
+Description: Description of wam_srvs
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime geometry_msgs

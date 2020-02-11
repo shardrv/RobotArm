@@ -1,8 +1,8 @@
-prefix=/home/dhruv/RobotArm/wam_dir/install
+prefix=/home/dhruv/gitwkspc/RobotArm/wam_dir/install
 
 Name: armmove
 Description: Description of armmove
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/dhruv/RobotArm/wam_dir/install/lib 
+Libs: -L${prefix}/lib 
 Requires: roscpp rospy

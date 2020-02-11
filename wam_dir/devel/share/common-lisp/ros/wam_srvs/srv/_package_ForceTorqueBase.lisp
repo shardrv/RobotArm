@@ -1,12 +1,1 @@
-(cl:in-package wam_srvs-srv)
-(cl:export '(FORCE-VAL
-          FORCE
-          TORQUE-VAL
-          TORQUE
-          KP-VAL
-          KP
-          KD-VAL
-          KD
-          MODE-VAL
-          MODE
-))
+/home/dhruv/gitwkspc/RobotArm/wam_dir/devel/.private/wam_srvs/share/common-lisp/ros/wam_srvs/srv/_package_ForceTorqueBase.lisp

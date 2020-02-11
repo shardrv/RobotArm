@@ -1,10 +1,1 @@
-(cl:in-package wam_msgs-msg)
-(cl:export '(ORIENTATION-VAL
-          ORIENTATION
-          KP-VAL
-          KP
-          KD-VAL
-          KD
-          CHANGE_GAINS-VAL
-          CHANGE_GAINS
-))
+/home/dhruv/gitwkspc/RobotArm/wam_dir/devel/.private/wam_msgs/share/common-lisp/ros/wam_msgs/msg/_package_RTOrtn.lisp

@@ -1,10 +1,1 @@
-(cl:in-package wam_msgs-msg)
-(cl:export '(V_DIRECTION-VAL
-          V_DIRECTION
-          V_MAGNITUDE-VAL
-          V_MAGNITUDE
-          KP-VAL
-          KP
-          CHANGE_GAINS-VAL
-          CHANGE_GAINS
-))
+/home/dhruv/gitwkspc/RobotArm/wam_dir/devel/.private/wam_msgs/share/common-lisp/ros/wam_msgs/msg/_package_RTVelocity.lisp

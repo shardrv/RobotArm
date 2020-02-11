@@ -1,0 +1,12 @@
+Symlinking /home/dhruv/gitwkspc/RobotArm/wam_dir/devel/./setup.bash
+Symlinking /home/dhruv/gitwkspc/RobotArm/wam_dir/devel/./setup.zsh
+Symlinking /home/dhruv/gitwkspc/RobotArm/wam_dir/devel/./env.sh
+Symlinking /home/dhruv/gitwkspc/RobotArm/wam_dir/devel/./_setup_util.py
+Symlinking /home/dhruv/gitwkspc/RobotArm/wam_dir/devel/./cmake.lock
+Symlinking /home/dhruv/gitwkspc/RobotArm/wam_dir/devel/./local_setup.zsh
+Symlinking /home/dhruv/gitwkspc/RobotArm/wam_dir/devel/./local_setup.sh
+Symlinking /home/dhruv/gitwkspc/RobotArm/wam_dir/devel/./setup.sh
+Symlinking /home/dhruv/gitwkspc/RobotArm/wam_dir/devel/./local_setup.bash
+Symlinking /home/dhruv/gitwkspc/RobotArm/wam_dir/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/dhruv/gitwkspc/RobotArm/wam_dir/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/dhruv/gitwkspc/RobotArm/wam_dir/devel/lib/pkgconfig/catkin_tools_prebuild.pc

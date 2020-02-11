@@ -1,10 +1,1 @@
-(cl:in-package wam_srvs-srv)
-(cl:export '(RADIUS-VAL
-          RADIUS
-          KP-VAL
-          KP
-          KD-VAL
-          KD
-          TRIGGER-VAL
-          TRIGGER
-))
+/home/dhruv/gitwkspc/RobotArm/wam_dir/devel/.private/wam_srvs/share/common-lisp/ros/wam_srvs/srv/_package_HapticSphere.lisp

@@ -1,8 +1,1 @@
-(cl:in-package wam_msgs-msg)
-(cl:export '(M-VAL
-          M
-          N-VAL
-          N
-          DATA-VAL
-          DATA
-))
+/home/dhruv/gitwkspc/RobotArm/wam_dir/devel/.private/wam_msgs/share/common-lisp/ros/wam_msgs/msg/_package_MatrixMN.lisp

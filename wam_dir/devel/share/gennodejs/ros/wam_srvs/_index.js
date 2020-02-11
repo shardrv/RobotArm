@@ -1,6 +1,1 @@
-
-"use strict";
-
-module.exports = {
-  srv: require('./srv/_index.js')
-};
+/home/dhruv/gitwkspc/RobotArm/wam_dir/devel/.private/wam_srvs/share/gennodejs/ros/wam_srvs/_index.js

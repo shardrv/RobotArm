@@ -1,0 +1,8 @@
+prefix=/home/dhruv/gitwkspc/RobotArm/wam_dir/devel/.private/wam_msgs
+
+Name: wam_msgs
+Description: Description of wam_msgs
+Version: 0.0.0
+Cflags: -I/home/dhruv/gitwkspc/RobotArm/wam_dir/devel/.private/wam_msgs/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

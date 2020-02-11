@@ -1,4 +1,1 @@
-(cl:in-package wam_srvs-srv)
-(cl:export '(HOLD-VAL
-          HOLD
-))
+/home/dhruv/gitwkspc/RobotArm/wam_dir/devel/.private/wam_srvs/share/common-lisp/ros/wam_srvs/srv/_package_Hold.lisp

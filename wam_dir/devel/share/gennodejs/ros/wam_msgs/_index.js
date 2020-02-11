@@ -1,6 +1,1 @@
-
-"use strict";
-
-module.exports = {
-  msg: require('./msg/_index.js'),
-};
+/home/dhruv/gitwkspc/RobotArm/wam_dir/devel/.private/wam_msgs/share/gennodejs/ros/wam_msgs/_index.js

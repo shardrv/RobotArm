@@ -1,0 +1,17 @@
+[  0%] Built target _wam_msgs_generate_messages_check_deps_MatrixMN
+[  0%] Built target _wam_msgs_generate_messages_check_deps_RTOrtn
+[  0%] Built target _wam_msgs_generate_messages_check_deps_RTPose
+[  0%] Built target _wam_msgs_generate_messages_check_deps_RTOrtnPos
+[  0%] Built target _wam_msgs_generate_messages_check_deps_RTCartVel
+[  0%] Built target _wam_msgs_generate_messages_check_deps_RTToolInfo
+[  0%] Built target _wam_msgs_generate_messages_check_deps_RTCartPos
+[  0%] Built target _wam_msgs_generate_messages_check_deps_RTJointPos
+[  0%] Built target _wam_msgs_generate_messages_check_deps_RTOrtnVel
+[  0%] Built target _wam_msgs_generate_messages_check_deps_RTJointVel
+[  0%] Built target _wam_msgs_generate_messages_check_deps_RTVelocity
+[ 19%] Built target wam_msgs_generate_messages_cpp
+[ 40%] Built target wam_msgs_generate_messages_py
+[ 59%] Built target wam_msgs_generate_messages_nodejs
+[ 78%] Built target wam_msgs_generate_messages_lisp
+[100%] Built target wam_msgs_generate_messages_eus
+[100%] Built target wam_msgs_generate_messages

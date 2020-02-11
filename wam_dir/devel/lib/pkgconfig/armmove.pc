@@ -1,8 +1,1 @@
-prefix=/home/dhruv/RobotArm/wam_dir/devel
-
-Name: armmove
-Description: Description of armmove
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/dhruv/RobotArm/wam_dir/devel/lib 
-Requires: roscpp rospy
+/home/dhruv/gitwkspc/RobotArm/wam_dir/devel/.private/armmove/lib/pkgconfig/armmove.pc

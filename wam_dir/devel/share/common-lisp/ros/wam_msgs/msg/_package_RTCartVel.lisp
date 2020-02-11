@@ -1,6 +1,1 @@
-(cl:in-package wam_msgs-msg)
-(cl:export '(DIRECTION-VAL
-          DIRECTION
-          MAGNITUDE-VAL
-          MAGNITUDE
-))
+/home/dhruv/gitwkspc/RobotArm/wam_dir/devel/.private/wam_msgs/share/common-lisp/ros/wam_msgs/msg/_package_RTCartVel.lisp

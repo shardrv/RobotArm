@@ -1,8 +1,1 @@
-(cl:in-package wam_srvs-srv)
-(cl:export '(HOLD-VAL
-          HOLD
-          KP-VAL
-          KP
-          KD-VAL
-          KD
-))
+/home/dhruv/gitwkspc/RobotArm/wam_dir/devel/.private/wam_srvs/share/common-lisp/ros/wam_srvs/srv/_package_HoldGains.lisp
